@@ -1,0 +1,48 @@
+/* Import of font Syne from Google Fonts and setup on all pages */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+
+html * {
+   font-family: 'Syne', sans-serif;
+}
+
+
+/* header */
+
+.site-logo img {
+	max-height: 1.9rem;
+	max-width: 201px;
+}
+
+ul.primary-menu {
+	font-size: 1.6rem;
+	font-weight: 400;
+	letter-spacing: normal;
+	margin: 0;
+}
+
+/* home page */
+.entry-title {
+    display: none;
+}
+
+
+/* Footer Bottom */
+
+#site-footer {
+    padding-top: 20px;
+    padding-bottom: 21px;
+}
+
+#site-footer .section-inner {
+	justify-content: center;
+	font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#site-footer li {
+	line-height: 1.9rem;
+}
+
+#site-footer a {
+	color: black;
+}
