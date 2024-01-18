@@ -2,35 +2,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
 
 html * {
-   font-family: 'Syne', sans-serif;
+   font-family: 'Syne', sans-serif !important; 
 }
 
+body {
+    max-width: 1440px;
+	width:100%;
+	margin:auto;
+}
 
-/* header */
+/* HEADER */
 
+/* logo image size */
 .site-logo img {
 	max-height: 1.9rem;
 	max-width: 201px;
 }
 
+/* header container size */
+.header-inner {
+	width: 100%;
+    max-width: 1440px;
+	margin: 0;
+	padding: 0 0 0 37px;
+}
+
 ul.primary-menu {
-	font-size: 1.6rem;
-	font-weight: 400;
-	letter-spacing: normal;
 	margin: 0;
 }
 
-/* home page */
-.entry-title {
-    display: none;
+.primary-menu > li {
+    margin: 0;
+}
+
+/* Navigation menu */
+ul.primary-menu a {
+	padding: 30px 60px 31px 0;
+	margin: 0;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.9rem;
+	letter-spacing: normal;
+	text-decoration: none;
+}
+
+ul.primary-menu a:hover {
+	font-size: 1.3rem;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.primary-menu li.current-menu-item > a {
+    text-decoration: none;
+}
+
+.primary-menu > li > a {
+	color: black !important;
+}
+
+/* last li element of menu ("commander" specific selector) */
+.primary-menu > li:last-child {
+	background-color: #DC9F96;
+	padding: 0 1px 0 61px;
+}
+
+.primary-menu > li:last-child:hover {
+	background-color: #C02E44;
+}
+
+.primary-menu > li:last-child > a {
+	color: white !important;
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+/* PAGES */
+/* Gutenberg pages title not displayed */
+.entry-header {
+	display:none;
+}
+
+/* pages gutenberg blocks */
+.post-inner {
+	padding: 0;
 }
 
 
-/* Footer Bottom */
-
+/* FOOTER */
+/* Footer Bottom container */
 #site-footer {
     padding-top: 20px;
     padding-bottom: 21px;
+}
+
+.footer-top-hidden #site-footer {
+	margin: 0;
 }
 
 #site-footer .section-inner {

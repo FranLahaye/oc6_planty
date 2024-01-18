@@ -1,0 +1,440 @@
+# Copyright (C) 2021 Rouergue Creation
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Editor Custom Color Palette 1.1\n"
+"Report-Msgid-Bugs-To: ntickets\n"
+"POT-Creation-Date: 2021-06-25 13:16+0200\n"
+"PO-Revision-Date: 2021-06-26 16:31+0200\n"
+"MIME-Version: 1.1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# Traduction editor-custom-color-palette.php
+# #########################################################
+
+#: editor-custom-color-palette.php:750 
+#: inc/eccp-multiple-settings.php:1096
+msgid "primary color"
+msgstr ""
+
+#: editor-custom-color-palette.php:755 
+#: inc/eccp-multiple-settings.php:1151
+msgid "secondary color"
+msgstr ""
+
+#: editor-custom-color-palette.php:760 
+#: inc/eccp-multiple-settings.php:1203
+msgid "accent color"
+msgstr ""
+
+#: editor-custom-color-palette.php:765 
+#: inc/eccp-multiple-settings.php:1256
+msgid "title color"
+msgstr ""
+
+#: editor-custom-color-palette.php:770 
+#: inc/eccp-multiple-settings.php:1310
+msgid "text color"
+msgstr ""
+
+#: editor-custom-color-palette.php:775 
+#: inc/eccp-multiple-settings.php:1363
+msgid "light off-white"
+msgstr ""
+
+#: editor-custom-color-palette.php:780 
+#: inc/eccp-multiple-settings.php:1416
+msgid "dark off-white"
+msgstr ""
+
+#: editor-custom-color-palette.php:785 
+#: inc/eccp-multiple-settings.php:1469
+msgid "white"
+msgstr ""
+
+#: editor-custom-color-palette.php:790 
+#:inc/eccp-multiple-settings.php:1522
+msgid "green"
+msgstr ""
+
+#: editor-custom-color-palette.php:795 
+#: inc/eccp-multiple-settings.php:1576
+msgid "light green"
+msgstr ""
+
+#: editor-custom-color-palette.php:800 
+#: inc/eccp-multiple-settings.php:1629
+msgid "red"
+msgstr ""
+
+#: editor-custom-color-palette.php:805 
+#: inc/eccp-multiple-settings.php:1682
+msgid "light yellow"
+msgstr ""
+
+#: editor-custom-color-palette.php:887 
+msgid "Small"
+msgstr ""
+
+#: editor-custom-color-palette.php:894 
+msgid "Regular"
+msgstr ""
+
+#: editor-custom-color-palette.php:901 
+msgid "Large"
+msgstr ""
+
+#: editor-custom-color-palette.php:908 
+msgid "Huge"
+msgstr ""
+
+# Traduction eccp-admin-menu.php
+##########################################################
+
+#: eccp-admin-menu.php:32 
+#: eccp-admin-menu.php:64
+msgid "Editor Custom Color Palette General Settings"
+msgstr ""
+
+#: eccp-admin-menu.php:33
+msgid "ECCP Settings"
+msgstr ""
+
+#: eccp-admin-menu.php:75
+msgid "Table of content"
+msgstr ""
+
+#: eccp-admin-menu.php:77 
+#: inc/eccp-multiple-settings.php:117
+msgid "Default settings"
+msgstr ""
+
+#: eccp-admin-menu.php:79 
+#: inc/eccp-multiple-settings.php:159
+msgid "EDITOR COLOR PALETTE GUTENBERG"
+msgstr ""
+
+#: eccp-admin-menu.php:81 
+#: inc/eccp-multiple-settings.php:692
+msgid "EDITOR TEXT SIZES"
+msgstr ""
+
+#: eccp-admin-menu.php:83 
+#: inc/eccp-multiple-settings.php:769
+msgid "CUSTOMIZING GUTENBERG EDITOR"
+msgstr ""
+
+#: eccp-admin-menu.php:94
+msgid "Save Settings"
+msgstr ""
+
+# Traduction eccp-multiple-settings.php
+##################################################################
+
+#: inc/eccp-multiple-settings.php:126
+msgid "initialize the plugin with default settings"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:135
+msgid "delete data during uninstallation?"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:169
+msgid "customizing color palette"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:175
+#: inc/eccp-multiple-settings.php:668
+#: inc/eccp-multiple-settings.php:681
+#: inc/eccp-multiple-settings.php:707
+#: inc/eccp-multiple-settings.php:759
+#: inc/eccp-multiple-settings.php:783
+#: inc/eccp-multiple-settings.php:796
+#: inc/eccp-multiple-settings.php:809
+#: inc/eccp-multiple-settings.php:823
+msgid "activate"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:182
+msgid "number of colors in the palette"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:188
+msgid "7"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:189
+msgid "8"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:190
+msgid "9"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:191
+msgid "10"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:192
+msgid "11"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:193
+msgid "12"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:205
+msgid "color 1"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:243
+msgid "color 2"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:214
+#: inc/eccp-multiple-settings.php:252
+#: inc/eccp-multiple-settings.php:291
+#: inc/eccp-multiple-settings.php:329
+#: inc/eccp-multiple-settings.php:367
+#: inc/eccp-multiple-settings.php:405
+#: inc/eccp-multiple-settings.php:443
+#: inc/eccp-multiple-settings.php:481
+#: inc/eccp-multiple-settings.php:519
+#: inc/eccp-multiple-settings.php:557
+#: inc/eccp-multiple-settings.php:595
+#: inc/eccp-multiple-settings.php:633
+msgid "opacity: 0 to 100"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:223
+#: inc/eccp-multiple-settings.php:261
+#: inc/eccp-multiple-settings.php:300
+#: inc/eccp-multiple-settings.php:338
+#: inc/eccp-multiple-settings.php:376
+#: inc/eccp-multiple-settings.php:414
+#: inc/eccp-multiple-settings.php:452
+#: inc/eccp-multiple-settings.php:490
+#: inc/eccp-multiple-settings.php:528
+#: inc/eccp-multiple-settings.php:566
+#: inc/eccp-multiple-settings.php:604
+#: inc/eccp-multiple-settings.php:642
+msgid "name"
+msgstr ""
+
+
+#: inc/eccp-multiple-settings.php:232
+#: inc/eccp-multiple-settings.php:270
+#: inc/eccp-multiple-settings.php:309
+#: inc/eccp-multiple-settings.php:347
+#: inc/eccp-multiple-settings.php:385
+#: inc/eccp-multiple-settings.php:423
+#: inc/eccp-multiple-settings.php:461
+#: inc/eccp-multiple-settings.php:499
+#: inc/eccp-multiple-settings.php:537
+#: inc/eccp-multiple-settings.php:575
+#: inc/eccp-multiple-settings.php:613
+#: inc/eccp-multiple-settings.php:651
+msgid "slug"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:282
+msgid "color 3"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:320
+msgid "color 4"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:358
+msgid "color 5"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:396
+msgid "color 6"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:434
+msgid "color 7"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:472
+msgid "color 8"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:510
+msgid "color 9"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:548
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:586
+msgid "color 11"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:624
+msgid "color 12"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:662
+msgid "disabling custom colors"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:675
+msgid "disabling custom gradients"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:701
+msgid "activate editor text sizes setting"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:716
+msgid "font size: small in pixel"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:725
+msgid "font size: normal in pixel"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:734
+msgid "font size: large in pixel"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:743
+msgid "font size: huge in pixel"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:753
+#: inc/eccp-multiple-settings.php:1829
+msgid "Disable the custom font size"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:777
+msgid "disable fullscreen mode of Gutenberg editor"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:790
+msgid "activate the default style sheet of Gutenberg blocks on Front End"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:803
+msgid "align wide option for the block editor"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:817
+msgid "responsive embeds(for example integration vidéos YouTube)"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:885
+msgid "Customize the color palette"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:887
+msgid "You can customize a palette of twelve colors."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:889
+msgid "The color is defined in hexadecimal,the opacity allows to apply an RGBA color."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:891
+msgid "Choose a simple name for the color, max 25 characters alphanumeric."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:893
+msgid "The slug is automatically created from the name of the color and allows the style to be applied in the front end."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:895
+msgid "two options allow:"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:897
+msgid "• Disabling custom colors"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:899
+msgid "Disabling custom gradients"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:914
+msgid "Customize the text sizes proposed in the paragraph"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:916
+msgid "When you add a paragraph, an option allows you to choose the size of the text: small,regular,large,huge."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:918
+msgid "The style is then applied to the paragraph, both in the editor and on the Front End."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:920
+msgid "In order to better control this option, you will be able to choose the corresponding sizes."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:922
+msgid "Added option:"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:924
+msgid "• Disable custom font size"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:938
+msgid "Customize Gutenberg editor"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:940
+msgid "align wide option for the block editor:"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:942
+msgid "Some blocks such as the image block have the possibility to define a wide or full alignment."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:944
+msgid "Not all themes take these styles into account."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:995
+#: inc/eccp-multiple-settings.php:998
+#: inc/eccp-multiple-settings.php:1018
+#: inc/eccp-multiple-settings.php:1021
+msgid "no"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:1003
+#: inc/eccp-multiple-settings.php:1026
+msgid "yes"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:1064
+msgid "Choose an option"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:1076
+msgid "According to your choice for the number of color."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:1078
+msgid "Choice of 7 colors: enter colors 1 to 7 below"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:1080
+msgid "Choice of 8 colors: enter colors 1 to 8 below"
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:1082
+msgid "etc ..."
+msgstr ""
+
+#: inc/eccp-multiple-settings.php:1727
+msgid "Disabling custom colors & gradients"
+msgstr ""

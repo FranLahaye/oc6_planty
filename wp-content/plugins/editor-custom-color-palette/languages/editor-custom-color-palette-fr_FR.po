@@ -1,0 +1,3435 @@
+# Copyright (C) 2021 Rouergue Creation
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Editor Custom Color Palette 3.2.1\n"
+"Report-Msgid-Bugs-To: ntickets\n"
+"POT-Creation-Date: 2021-06-25 13:16+0200\n"
+"PO-Revision-Date: 2023-11-21 19:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# Traduction editor-custom-color-palette.php
+# #########################################################
+#: editor-custom-color-palette.php:5
+msgid "A simple plugin to customize the color palette & text sizes & blocks from editor Gutenberg"
+msgstr "Un plugin simple pour personnaliser la palette de couleurs & les tailles de texte & les blocs de l'éditeur Gutenberg"
+
+#: editor-custom-color-palette.php:1820
+msgid "Settings"
+msgstr "Réglages"
+
+#: editor-custom-color-palette.php:786 inc/eccp-multiple-settings.php:1130
+#: inc/eccp-multiple-settings.php:1122
+msgid "Primary"
+msgstr "couleur primaire"
+
+#: editor-custom-color-palette.php:1218
+msgid "primary"
+msgstr "couleur_primaire"
+
+#: editor-custom-color-palette.php:791 inc/eccp-multiple-settings.php:1188
+#: inc/eccp-multiple-settings.php:1177
+msgid "Secondary"
+msgstr "couleur secondaire"
+
+#: editor-custom-color-palette.php:1223
+msgid "secondary"
+msgstr "couleur_secondaire"
+
+#: editor-custom-color-palette.php:796 inc/eccp-multiple-settings.php:1241
+#: inc/eccp-multiple-settings.php:1230
+msgid "Accent"
+msgstr "couleur accent"
+
+#: editor-custom-color-palette.php:1233
+msgid "accent"
+msgstr "couleur_accent"
+
+#: editor-custom-color-palette.php:801 inc/eccp-multiple-settings.php:1294
+#: inc/eccp-multiple-settings.php:1283 inc/eccp-multiple-settings.php:3460
+msgid "title color"
+msgstr "couleur du titre"
+
+#: editor-custom-color-palette.php:1306
+msgid "title_color"
+msgstr "couleur_titre"
+
+#: editor-custom-color-palette.php:806 inc/eccp-multiple-settings.php:1347
+#: inc/eccp-multiple-settings.php:1336
+msgid "Text"
+msgstr "couleur du texte"
+
+#: editor-custom-color-palette.php:1228
+msgid "text"
+msgstr "couleur_texte"
+
+#: editor-custom-color-palette.php:811 inc/eccp-multiple-settings.php:1400
+#: inc/eccp-multiple-settings.php:1389
+msgid "light off-white"
+msgstr "blanc cassé clair"
+
+#: editor-custom-color-palette.php:1311
+msgid "light_off_white"
+msgstr "blanc_casse_clair"
+
+#: editor-custom-color-palette.php:816 inc/eccp-multiple-settings.php:1453
+#: inc/eccp-multiple-settings.php:1442
+msgid "dark off-white"
+msgstr "blanc cassé fonçé"
+
+#: editor-custom-color-palette.php:1316
+msgid "dark_off_white"
+msgstr "blanc_casse_fonce"
+
+#: editor-custom-color-palette.php:821 inc/eccp-multiple-settings.php:1506
+#: inc/eccp-multiple-settings.php:1495
+msgid "white"
+msgstr "blanc"
+
+#: editor-custom-color-palette.php:826 inc/eccp-multiple-settings.php:1559
+#: inc/eccp-multiple-settings.php:1548
+msgid "green"
+msgstr "vert"
+
+#: editor-custom-color-palette.php:831 inc/eccp-multiple-settings.php:1613
+#: inc/eccp-multiple-settings.php:1602
+msgid "light green"
+msgstr "vert pâle"
+
+#: editor-custom-color-palette.php:1332
+msgid "light_green"
+msgstr "vert_pale"
+
+#: editor-custom-color-palette.php:836 inc/eccp-multiple-settings.php:1666
+#: inc/eccp-multiple-settings.php:1655
+msgid "red"
+msgstr "rouge"
+
+#: editor-custom-color-palette.php:841 inc/eccp-multiple-settings.php:1719
+#: inc/eccp-multiple-settings.php:1708
+msgid "light yellow"
+msgstr "jaune pâle"
+
+#: editor-custom-color-palette.php:1343
+msgid "light_yellow"
+msgstr "jaune_pale"
+
+#: editor-custom-color-palette.php:905
+msgid "Small"
+msgstr "Petite"
+
+#: editor-custom-color-palette.php:912
+msgid "Regular"
+msgstr "Normale"
+
+#: editor-custom-color-palette.php:919
+msgid "Large"
+msgstr "Large"
+
+#: editor-custom-color-palette.php:926
+msgid "Huge"
+msgstr "Énorme"
+
+#: editor-custom-color-palette.php:2122 editor-custom-color-palette.php:2123
+msgid "Reusable Blocks"
+msgstr "Blocs Réutilisables"
+
+#: editor-custom-color-palette.php:3204
+msgid "Integration"
+msgstr "Intégration"
+
+#: editor-custom-color-palette.php:3227
+msgid "PHP Function"
+msgstr "Fonction PHP"
+
+#: editor-custom-color-palette.php:3337
+msgid "Reusable Block preview: "
+msgstr "Aperçu du bloc réutilisable: "
+
+#: editor-custom-color-palette.php:3339
+msgid "Preview"
+msgstr "Aperçu"
+
+#: editor-custom-color-palette.php:3228
+msgid "Shortcode"
+msgstr "Code court"
+
+#: editor-custom-color-palette.php:2606
+msgid "ECCP Custom Blocks"
+msgstr "BLOCS PERSONNALISÉS ECCP"
+
+#: editor-custom-color-palette.php:3951
+msgid "Custom Avatar"
+msgstr "Avatar Personnalisé"
+
+#: editor-custom-color-palette.php:3951
+msgid "Rectangular Shape"
+msgstr "Forme Rectangle"
+
+#: editor-custom-color-palette.php:2337 editor-custom-color-palette.php:2806
+msgid "Featured Image"
+msgstr "Image En Avant"
+
+#: editor-custom-color-palette.php:4680
+msgid "All authors"
+msgstr "Tous les auteurs"
+
+#: editor-custom-color-palette.php:5199
+msgid "Date From"
+msgstr "Date Début"
+
+#: editor-custom-color-palette.php:5200
+msgid "Date To"
+msgstr "Date Fin"
+
+#: editor-custom-color-palette.php:5312
+msgid "All statuses"
+msgstr "Tous les status"
+
+#: editor-custom-color-palette.php:5811
+msgid "Make draft"
+msgstr "Statut brouillon"
+
+#: editor-custom-color-palette.php:5812
+msgid "Make pending"
+msgstr "Statut en attente"
+
+#: editor-custom-color-palette.php:5813
+msgid "Make private"
+msgstr "Statut privé"
+
+#: editor-custom-color-palette.php:5814
+msgid "Make publish"
+msgstr "Statut publié"
+
+#: editor-custom-color-palette.php:5821
+msgid "Status posts updated"
+msgstr "Status articles mis à jour"
+
+#: inc/eccp-multiple-settings.php:2824 inc/eccp-multiple-settings.php:5386
+#: inc/eccp-multiple-settings.php:9218
+msgid "Publications"
+msgstr "Publications"
+
+#: inc/eccp-multiple-settings.php:3388 inc/eccp-multiple-settings.php:3425
+msgid "Featured Image & Post ID"
+msgstr "Image en avant & ID de Publication"
+
+#: inc/eccp-multiple-settings.php:3403 inc/eccp-multiple-settings.php:7331
+msgid "Filter by author for all post types"
+msgstr "Filtre par auteur pour tous les types de publication"
+
+#: inc/eccp-multiple-settings.php:3405 inc/eccp-multiple-settings.php:7378
+msgid "Filter by categories for custom post types"
+msgstr "Filtre par catégories pour les types de publication personnalisé"
+
+#: inc/eccp-multiple-settings.php:3667 inc/eccp-multiple-settings.php:7805
+#: inc/eccp-multiple-settings.php:7877
+msgid "Filter by date range"
+msgstr "Filtre par plage de dates"
+
+#: inc/eccp-multiple-settings.php:3693 inc/eccp-multiple-settings.php:7851
+msgid "Filter post by publication status"
+msgstr "Filtrer les articles par status de publication"
+
+#: inc/eccp-multiple-settings.php:3889 inc/eccp-multiple-settings.php:8236
+msgid "Added publication status options for bulk article actions"
+msgstr "Ajout d'options status de publication pour les actions groupés des articles"
+
+#: inc/eccp-multiple-settings.php:3390 inc/eccp-multiple-settings.php:5386
+msgid "Post ID"
+msgstr "ID de publication"
+
+#: editor-custom-color-palette.php:4107 editor-custom-color-palette.php:4120
+msgid "ID"
+msgstr "ID"
+
+#: editor-custom-color-palette.php:4108 editor-custom-color-palette.php:4121
+msgid "Dimensions (W,H)"
+msgstr "Dimensions (L,H)"
+
+#: editor-custom-color-palette.php:4109 editor-custom-color-palette.php:4122
+msgid "File Size"
+msgstr "Taille Fichier"
+
+#: editor-custom-color-palette.php:4839
+msgid "Registration Date"
+msgstr "Date Enregistrement"
+
+#: editor-custom-color-palette.php:4912
+msgid "Last Login"
+msgstr "Dernière Connexion"
+
+#: editor-custom-color-palette.php:4840
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: editor-custom-color-palette.php:4852 editor-custom-color-palette.php:4860
+msgid "Login"
+msgstr "Connexion"
+
+#: editor-custom-color-palette.php:5419
+msgid "Weeks"
+msgstr "Semaines"
+
+#: editor-custom-color-palette.php:6285
+msgid "Days"
+msgstr "Jours"
+
+#: editor-custom-color-palette.php:6289
+msgid "Hours"
+msgstr "Heures"
+
+#: editor-custom-color-palette.php:6293
+msgid "Minutes"
+msgstr "Minutes"
+
+#: editor-custom-color-palette.php:6297
+msgid "Seconds"
+msgstr "Secondes"
+
+#: editor-custom-color-palette.php:6885
+msgid "About the Author"
+msgstr "À propos de l'auteur"
+
+#: editor-custom-color-palette.php:6892
+msgid "View all posts by "
+msgstr "Voir tous les articles de "
+
+# Traduction eccp-admin-menu.php
+# #########################################################
+#: inc/eccp-admin-menu.php:32 inc/eccp-admin-menu.php:64
+msgid "Editor Custom Color Palette General Settings"
+msgstr "Réglages Généraux Palette de Couleurs Personnalisées de l'Éditeur"
+
+#: inc/eccp-admin-menu.php:33
+msgid "ECCP Settings"
+msgstr "ECCP Réglages"
+
+#: inc/eccp-admin-menu.php:75
+msgid "Table of content"
+msgstr "Table des matières"
+
+#: inc/eccp-admin-menu.php:77 inc/eccp-multiple-settings.php:117
+#: inc/eccp-admin_menu.php:182
+msgid "Default settings"
+msgstr "Paramètres par défaut"
+
+#: inc/eccp-admin-menu.php:79 inc/eccp-multiple-settings.php:159
+msgid "EDITOR COLOR PALETTE GUTENBERG"
+msgstr "PALETTE DE COULEURS EDITEUR GUTENBERG"
+
+#: inc/eccp-admin-menu.php:81 inc/eccp-multiple-settings.php:692
+msgid "EDITOR TEXT SIZES"
+msgstr "TAILLES DE TEXTE DE L'ÉDITEUR"
+
+#: inc/eccp-admin-menu.php:83 inc/eccp-multiple-settings.php:769
+msgid "CUSTOMIZING GUTENBERG EDITOR"
+msgstr "PERSONNALISATION DE L'ÉDITEUR GUTENBERG"
+
+#: inc/eccp-multiple-settings.php:1024
+msgid "CUSTOMIZING GUTENBERG BLOCKS"
+msgstr "PERSONNALISER BLOCS GUTENBERG"
+
+#: inc/eccp-admin-menu.php:94
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: inc/eccp-admin_menu.php:183
+msgid "Color palette"
+msgstr "Palette de couleurs"
+
+#: inc/eccp-admin_menu.php:184
+msgid "Editor text size"
+msgstr "Taille texte éditeur"
+
+#: inc/eccp-admin_menu.php:184
+msgid "Customizing editor"
+msgstr "Personnaliser éditeur"
+
+#: inc/eccp-admin_menu.php:185 inc/eccp-multiple-settings.php:1580
+msgid "Customizing Gutenberg blocks"
+msgstr "Personnaliser blocs Gutenberg"
+
+#: inc/eccp-admin_menu.php:186
+msgid "Reusable blocks"
+msgstr "Blocs réutilisables"
+
+#: inc/eccp-admin_menu.php:187
+msgid "Elementor"
+msgstr "Elementor"
+
+#: inc/eccp-admin_menu.php:188
+msgid "Divi"
+msgstr "Divi"
+
+# Traduction eccp-multiple-settings.php
+# #################################################################
+#: inc/eccp-multiple-settings.php:126
+msgid "initialize the plugin with default settings"
+msgstr "initialiser le plugin avec les paramètres par défaut"
+
+#: inc/eccp-multiple-settings.php:135
+msgid "delete data during uninstallation?"
+msgstr "supprimer les données lors de la désinstallation?"
+
+#: inc/eccp-admin-menu.php:81 inc/eccp-multiple-settings.php:169
+#: inc/eccp-admin-menu.php:144 inc/eccp-multiple-settings.php:1556
+#: inc/eccp-multiple-settings.php:905 inc/eccp-multiple-settings.php:1613
+#: inc/eccp-admin-menu.php:151
+msgid "customizing color palette"
+msgstr "personnalisation de la palette de couleurs"
+
+#: inc/eccp-multiple-settings.php:175 inc/eccp-multiple-settings.php:668
+#: inc/eccp-multiple-settings.php:681 inc/eccp-multiple-settings.php:707
+#: inc/eccp-multiple-settings.php:759 inc/eccp-multiple-settings.php:783
+#: inc/eccp-multiple-settings.php:796 inc/eccp-multiple-settings.php:809
+#: inc/eccp-multiple-settings.php:823 inc/eccp-multiple-settings.php:846
+#: inc/eccp-multiple-settings.php:858 inc/eccp-multiple-settings.php:1275
+#: inc/eccp-multiple-settings.php:1122 inc/eccp-multiple-settings.php:1328
+msgid "activate"
+msgstr "activer"
+
+#: inc/eccp-multiple-settings.php:182
+msgid "number of colors in the palette"
+msgstr "nombre de couleurs dans la palette"
+
+#: inc/eccp-multiple-settings.php:188
+msgid "7"
+msgstr "7"
+
+#: inc/eccp-multiple-settings.php:189
+msgid "8"
+msgstr "8"
+
+#: inc/eccp-multiple-settings.php:190
+msgid "9"
+msgstr "9"
+
+#: inc/eccp-multiple-settings.php:191
+msgid "10"
+msgstr "10"
+
+#: inc/eccp-multiple-settings.php:192
+msgid "11"
+msgstr "11"
+
+#: inc/eccp-multiple-settings.php:193
+msgid "12"
+msgstr "12"
+
+#: inc/eccp-multiple-settings.php:205
+msgid "color 1"
+msgstr "couleur 1"
+
+#: inc/eccp-multiple-settings.php:243
+msgid "color 2"
+msgstr "couleur 2"
+
+#: inc/eccp-multiple-settings.php:214 inc/eccp-multiple-settings.php:252
+#: inc/eccp-multiple-settings.php:291 inc/eccp-multiple-settings.php:329
+#: inc/eccp-multiple-settings.php:367 inc/eccp-multiple-settings.php:405
+#: inc/eccp-multiple-settings.php:443 inc/eccp-multiple-settings.php:481
+#: inc/eccp-multiple-settings.php:519 inc/eccp-multiple-settings.php:557
+#: inc/eccp-multiple-settings.php:595 inc/eccp-multiple-settings.php:633
+#: inc/eccp-multiple-settings.php:910 inc/eccp-multiple-settings.php:975
+#: inc/eccp-multiple-settings.php:1064
+msgid "opacity: 0 to 100"
+msgstr "opacité: 0 à 100"
+
+#: inc/eccp-multiple-settings.php:223 inc/eccp-multiple-settings.php:261
+#: inc/eccp-multiple-settings.php:300 inc/eccp-multiple-settings.php:338
+#: inc/eccp-multiple-settings.php:376 inc/eccp-multiple-settings.php:414
+#: inc/eccp-multiple-settings.php:452 inc/eccp-multiple-settings.php:490
+#: inc/eccp-multiple-settings.php:528 inc/eccp-multiple-settings.php:566
+#: inc/eccp-multiple-settings.php:604 inc/eccp-multiple-settings.php:642
+msgid "name"
+msgstr "nom"
+
+#: inc/eccp-multiple-settings.php:232 inc/eccp-multiple-settings.php:270
+#: inc/eccp-multiple-settings.php:309 inc/eccp-multiple-settings.php:347
+#: inc/eccp-multiple-settings.php:385 inc/eccp-multiple-settings.php:423
+#: inc/eccp-multiple-settings.php:461 inc/eccp-multiple-settings.php:499
+#: inc/eccp-multiple-settings.php:537 inc/eccp-multiple-settings.php:575
+#: inc/eccp-multiple-settings.php:613 inc/eccp-multiple-settings.php:651
+msgid "slug"
+msgstr "slug"
+
+#: inc/eccp-multiple-settings.php:282
+msgid "color 3"
+msgstr "couleur 3"
+
+#: inc/eccp-multiple-settings.php:320
+msgid "color 4"
+msgstr "couleur 4"
+
+#: inc/eccp-multiple-settings.php:358
+msgid "color 5"
+msgstr "couleur 5"
+
+#: inc/eccp-multiple-settings.php:396
+msgid "color 6"
+msgstr "couleur 6"
+
+#: inc/eccp-multiple-settings.php:434
+msgid "color 7"
+msgstr "couleur 7"
+
+#: inc/eccp-multiple-settings.php:472
+msgid "color 8"
+msgstr "couleur 8"
+
+#: inc/eccp-multiple-settings.php:510
+msgid "color 9"
+msgstr "couleur 9"
+
+#: inc/eccp-multiple-settings.php:586
+msgid "color 11"
+msgstr "couleur 11"
+
+#: inc/eccp-multiple-settings.php:624
+msgid "color 12"
+msgstr "couleur 12"
+
+#: inc/eccp-multiple-settings.php:662
+msgid "disabling custom colors"
+msgstr "désactiver les couleurs personnalisées"
+
+#: inc/eccp-multiple-settings.php:675
+msgid "disabling custom gradients"
+msgstr "désactiver les dégradés personnalisés"
+
+#: inc/eccp-multiple-settings.php:701
+msgid "activate editor text sizes setting"
+msgstr "activer le réglage des tailles de texte de l'éditeur"
+
+#: inc/eccp-multiple-settings.php:716
+msgid "font size: small in pixel"
+msgstr "taille de la police: petite en pixel"
+
+#: inc/eccp-multiple-settings.php:725
+msgid "font size: normal in pixel"
+msgstr "taille de la police: normale en pixel"
+
+#: inc/eccp-multiple-settings.php:734
+msgid "font size: large in pixel"
+msgstr "taille de la police: large en pixel"
+
+#: inc/eccp-multiple-settings.php:743
+msgid "font size: huge in pixel"
+msgstr "taille de la police: énorme en pixel"
+
+#: inc/eccp-multiple-settings.php:1117
+msgid "enable fluid typography"
+msgstr "activer la typographie fluide"
+
+#: inc/eccp-multiple-settings.php:1130
+msgid "mobile screen: Large font size in pixel"
+msgstr "écran mobile: taille police Large en pixel"
+
+#: inc/eccp-multiple-settings.php:1140
+msgid "mobile screen: Huge font size in pixel"
+msgstr "écran mobile: taille police Énorme en pixel"
+
+#: inc/eccp-multiple-settings.php:1073
+msgid "Enable default text size"
+msgstr "Activer taille texte par défaut"
+
+#: inc/eccp-multiple-settings.php:1087
+msgid "text size: in pixels"
+msgstr "taille de texte: en pixel"
+
+#: inc/eccp-admin-menu.php:86 inc/eccp-multiple-settings.php:753
+#: inc/eccp-multiple-settings.php:1835
+msgid "Disable the custom font size"
+msgstr "Désactiver la taille de police personnalisée"
+
+#: inc/eccp-admin-menu.php:91 inc/eccp-multiple-settings.php:777
+#: inc/eccp-multiple-settings.php:948
+msgid "disable fullscreen mode of Gutenberg editor"
+msgstr "désactiver le mode plein écran de l'éditeur Gutenberg"
+
+#: inc/eccp-admin-menu.php:93 inc/eccp-multiple-settings.php:790
+#: inc/eccp-multiple-settings.php:1873
+msgid "activate the default style sheet of Gutenberg blocks on Front End"
+msgstr "activer la feuille de style par défaut des blocs Gutenberg sur Front End"
+
+#: inc/eccp-multiple-settings.php:825 inc/eccp-multiple-settings.php:2316
+msgid "align wide option for the block editor"
+msgstr "option d'alignement large pour l'éditeur de blocs"
+
+#: inc/eccp-admin-menu.php:97 inc/eccp-multiple-settings.php:817
+#: inc/eccp-multiple-settings.php:1906
+msgid "responsive embeds(for example integration vidéos YouTube)"
+msgstr "embeds responsive(par exemple intégration de vidéos YouTube)"
+
+#: inc/eccp-multiple-settings.php:854 inc/eccp-multiple-settings.php:863
+msgid "max width integrated videos(in pixels)(min:160px)"
+msgstr "largeur max vidéos intégrées(en pixel)(min:160px)"
+
+#: inc/eccp-multiple-settings.php:5300
+msgid "Fluid typography is typography that evolves proportionally depending on the screen size included by default in the resolution [480px 1000px]."
+msgstr "La typographie fluide est une typographie qui évolue proportionnellement en fonction de la taille de l'écran comprise par défaut dans la résolution[480px 1000px]."
+
+#: inc/eccp-multiple-settings.php:5302
+msgid "You can change the resolution [Min Max] from the Custom Editor tab, Fluid Spacing section."
+msgstr "Vous pouvez modifier la résolution[Min Max] a partir de l'onglet Personnaliser Editeur, section Espacement Fluide."
+
+#: inc/eccp-multiple-settings.php:5304
+msgid "Smooth typography is active for predefined font size values (Large & Huge size)."
+msgstr "La typographie fluide est active pour les valeurs prédéfinies de taille de police( taille Large & Énorme)."
+
+#: inc/eccp-multiple-settings.php:5306
+msgid "Set the font size for the predefined sizes (Large & Huge) below for Min resolution."
+msgstr "Définissez ci-dessous pour une résolution Min la taille de police pour les tailles prédéfinies(Large & Énorme)."
+
+#: inc/eccp-multiple-settings.php:5227
+msgid "For custom sizes Fluid typography is active for minimum and maximum window widths (768px and 1600px) set by default by WordPress."
+msgstr "Pour les tailles personnalisées La typographie fluide est active pour des Largeurs de fenêtre minimales et maximales(768px et 1600px) fixé par défaut par WordPress."
+
+#: inc/eccp-multiple-settings.php:5229
+msgid "Furthermore, the minimum font size for a resolution <= 768px is automatically set by WordPress according to the custom size entered in the editor."
+msgstr "Par ailleurs la taille mini de la police pour une résolution <= 768px est fixé automatiquement par WordPress en fonction de la taille personnalisé renseignée dans l'editeur."
+
+#: inc/eccp-multiple-settings.php:874 inc/eccp-multiple-settings.php:2427
+msgid "corrective according to theme"
+msgstr "correctif selon le thème"
+
+#: inc/eccp-multiple-settings.php:2430
+msgid "Correct according to the themes(example Divi, Astra)the problem of padding top and centered alignment of the videos on the front end."
+msgstr "Corriger selon les thèmes(exemple Divi,Astra)le problème de marge interne haute et alignement centré des vidéos en front end."
+
+#: inc/eccp-multiple-settings.php:852
+msgid "Enable Editor Width"
+msgstr "Activer la largeur de l'éditeur"
+
+#: inc/eccp-multiple-settings.php:851
+msgid "small template: width in pixel(min:500px)"
+msgstr "petit modèle: largeur en pixel(min:500px)"
+
+#: inc/eccp-multiple-settings.php:860
+msgid "large template: width in pixel(min:840px)"
+msgstr "large modèle: largeur en pixel(min:840px)"
+
+#: inc/eccp-multiple-settings.php:897 inc/eccp-multiple-settings.php:2367
+#: inc/eccp-multiple-settings.php:2657 inc/eccp-multiple-settings.php:2753
+msgid "Post default"
+msgstr "Article par défaut"
+
+#: inc/eccp-multiple-settings.php:875 inc/eccp-multiple-settings.php:892
+msgid "small"
+msgstr "petit"
+
+#: inc/eccp-multiple-settings.php:876 inc/eccp-multiple-settings.php:893
+#: inc/eccp-multiple-settings.php:1729
+msgid "large"
+msgstr "large"
+
+#: inc/eccp-multiple-settings.php:877 inc/eccp-multiple-settings.php:894
+msgid "fullwidth"
+msgstr "pleine largeur"
+
+#: inc/eccp-multiple-settings.php:914 inc/eccp-multiple-settings.php:2384
+#: inc/eccp-multiple-settings.php:2686 inc/eccp-multiple-settings.php:2783
+msgid "Page default"
+msgstr "page par defaut"
+
+#: inc/eccp-multiple-settings.php:971 inc/eccp-multiple-settings.php:2642
+#: inc/eccp-multiple-settings.php:3223 inc/eccp-multiple-settings.php:3367
+msgid "CPT: Custom Post Type"
+msgstr "CPT: Type De Publication Personnalisée"
+
+#: inc/eccp-multiple-settings.php:3174
+msgid "Activate the menu of reusable blocks in the back office"
+msgstr "Activer le menu des blocs réutilisables en back office"
+
+#: inc/eccp-multiple-settings.php:3178
+msgid "For easier management of reusable blocks,add a reusable blocks menu on the dashboard."
+msgstr "Pour une gestion plus facile des blocs réutilisables,ajoutez un menu de blocs réutilisables sur le tableau de bord."
+
+#: inc/eccp-multiple-settings.php:953
+msgid "paragraph block: Box shadow style activate"
+msgstr "bloc paragraphe: Activer style ombre de boite"
+
+#: inc/eccp-multiple-settings.php:966
+msgid "box shadow color"
+msgstr "couleur ombre de boite"
+
+#: inc/eccp-multiple-settings.php:984
+msgid "X"
+msgstr "X"
+
+#: inc/eccp-multiple-settings.php:993
+msgid "Y"
+msgstr "Y"
+
+#: inc/eccp-multiple-settings.php:1002
+msgid "Blur"
+msgstr "Flou"
+
+#: inc/eccp-multiple-settings.php:1011
+msgid "Spread"
+msgstr "Diffuser"
+
+#: inc/eccp-multiple-settings.php:1190
+msgid "paragraph bloc: Activate card style"
+msgstr "bloc de paragraphe: Activer le style card"
+
+#: inc/eccp-multiple-settings.php:1216
+msgid "paragraph bloc: Activate notice question style"
+msgstr "bloc de paragraphe : Activer le style notice question"
+
+#: inc/eccp-multiple-settings.php:1229 inc/eccp-multiple-settings.php:1251
+#: inc/eccp-multiple-settings.php:1274 inc/eccp-multiple-settings.php:1296
+#: inc/eccp-multiple-settings.php:1318 inc/eccp-multiple-settings.php:3166
+msgid "icon color"
+msgstr "couleur icône"
+
+#: inc/eccp-multiple-settings.php:1229
+msgid "paragraph bloc: Activate notice info style"
+msgstr "bloc de paragraphe : Activer le style notice info"
+
+#: inc/eccp-multiple-settings.php:1242
+msgid "paragraph bloc: Activate notice advice style"
+msgstr "bloc de paragraphe : Activer le style notice conseil"
+
+#: inc/eccp-multiple-settings.php:1255
+msgid "paragraph bloc: Activate notice warning style"
+msgstr "bloc de paragraphe : Activer le style notice attention"
+
+#: inc/eccp-multiple-settings.php:1268
+msgid "paragraph bloc: Activate notice alert style"
+msgstr "bloc de paragraphe : Activer le style notice alerte"
+
+#: inc/eccp-multiple-settings.php:1594
+msgid "paragraph bloc: Activate Click to Tweet style"
+msgstr "bloc de paragraphe : Activer le style Click to Tweet"
+
+#: inc/eccp-multiple-settings.php:1603
+msgid "tooltip text color"
+msgstr "couleur texte info-bulle"
+
+#: inc/eccp-multiple-settings.php:1615
+msgid "tooltip background color"
+msgstr "couleur arrière plan info-bulle"
+
+#: inc/eccp-multiple-settings.php:1625
+msgid "text double underline color"
+msgstr "couleur double soulignement texte"
+
+#: inc/eccp-admin-menu.php:105 inc/eccp-multiple-settings.php:2235
+msgid "Editor max widths, match the editor width to your sites width."
+msgstr "Largeurs maximales de l'éditeur, faites correspondre la largeur de l'éditeur à la largeur de vos sites."
+
+#: inc/eccp-admin-menu.php:107 inc/eccp-multiple-settings.php:2148
+msgid "Paragraph Block"
+msgstr "Bloc Paragraphe"
+
+#: inc/eccp-multiple-settings.php:2211
+msgid "box shadow style"
+msgstr "Style box shadow"
+
+#: inc/eccp-multiple-settings.php:2213
+msgid "• box shadow style below"
+msgstr "• Style ombre de boîte ci-dessous"
+
+#: inc/eccp-multiple-settings.php:2215
+msgid "You then have access (see opposite) to the ECCP Box Shadow Panel settings parameters for the box shadow style."
+msgstr "Vous avez alors accés (voir ci-contre) aux paramètres de réglages Panneau ECCP Box Shadow pour le style ombre de boîte."
+
+#: inc/eccp-multiple-settings.php:2219
+msgid "Box Shadow style also present for Group, Column, Image, Media-text blocks."
+msgstr "Style Box Shadow présent aussi pour les blocs Groupe,Colonne,Image,Media-texte."
+
+#: inc/eccp-multiple-settings.php:2222 inc/eccp-multiple-settings.php:4377
+msgid "default settings:"
+msgstr "paramètres par défaut:"
+
+#: inc/eccp-multiple-settings.php:2224
+msgid "shadow box color:#00000 opacity:20  X:0  Y:0  Blur:4  Spread:1"
+msgstr "couleur ombre de boite:#000000  opacité:20  X:0  Y:0  Flou:4  Diffuser:1"
+
+#: inc/eccp-multiple-settings.php:2238 inc/eccp-multiple-settings.php:3350
+msgid "Other styles for the paragraph block"
+msgstr "Autres styles pour le bloc paragraphe"
+
+#: inc/eccp-multiple-settings.php:2242
+msgid "• Added styles to block settings (Styles panel) and block toolbar."
+msgstr "• Ajout de styles aux paramètres du bloc (Panneau Styles) et dans la barre d'outils du bloc."
+
+#: inc/eccp-multiple-settings.php:2244
+msgid "Style: Question,Info,Advice,Warning,Alert"
+msgstr "Style: Question,Info,Conseil,Attention,Alerte"
+
+#: inc/eccp-multiple-settings.php:2246
+msgid "These styles make it possible to obtain notification blocks with icon and color background."
+msgstr "Ces styles permettent d'obtenir des blocs de notification avec icône et fond de couleurs."
+
+#: inc/eccp-multiple-settings.php:2248
+msgid "To have the styles in the block toolbar, in the last section of this page you need to enable JS scripting for more customization."
+msgstr "Pour avoir les styles dans la barre d'outils du bloc, dans la dernière section de cette page vous devez activer script JS pour plus de personnalisation."
+
+#: inc/eccp-multiple-settings.php:2250
+msgid "These styles are also present for the Group block."
+msgstr "Ces styles sont aussi présent pour le bloc Groupe."
+
+#: inc/eccp-multiple-settings.php:2305
+msgid "• Added Click to Tweet style to block settings(Styles Panel)."
+msgstr "• Ajout du style Click to Tweet aux paramètres du bloc(Panneau Styles)."
+
+#: inc/eccp-multiple-settings.php:2307
+msgid "Adding a \"click to tweet\" feature to your posts is a great way to encourage readers to share your content."
+msgstr "L'ajout d'une fonction \"cliquer pour tweeter\" à vos articles est un excellent moyen d'encourager les lecteurs a partager votre contenu."
+
+#: inc/eccp-multiple-settings.php:2307
+msgid "The Click to Tweet button is only visible in Front End."
+msgstr "Le bouton Click to Tweet n'est visible qu'en Front End."
+
+#: inc/eccp-multiple-settings.php:2309
+msgid "To also have the Click to Tweet style in the block inserter, in the last section of this page you must activate JS script for more customization."
+msgstr "Pour avoir aussi le style  Click to Tweet dans l'inséreuse de blocs, dans la dernière section de cette page vous devez activer script JS pour plus de personnalisation."
+
+#: inc/eccp-multiple-settings.php:1829 inc/eccp-multiple-settings.php:2182
+msgid "List Block"
+msgstr "Bloc Liste"
+
+#: inc/eccp-multiple-settings.php:1987 inc/eccp-multiple-settings.php:3754
+msgid "Bulleted list: other styles"
+msgstr "Liste à puces: autres styles"
+
+#: inc/eccp-multiple-settings.php:3179 inc/eccp-multiple-settings.php:5291
+msgid "Group Block"
+msgstr "Bloc Groupe"
+
+#: inc/eccp-multiple-settings.php:3181 inc/eccp-multiple-settings.php:5293
+msgid "Table of contents style"
+msgstr "Style table des matières"
+
+#: inc/eccp-multiple-settings.php:5300
+msgid "In the style panel of the block settings added the Table Of Contents style."
+msgstr "Dans le panneau style des paramètres du bloc ajout du style Table Of Contents."
+
+#: inc/eccp-multiple-settings.php:5302
+msgid "This style is used to display only in Front End a table of contents of the current publication."
+msgstr "Ce style permet d'afficher uniquement en Front End une table des matières de la publication en cours."
+
+#: inc/eccp-multiple-settings.php:5304
+msgid "You must also first select an <article> tag in the advanced panel/HTML element group block parameter."
+msgstr "Vous devez également au préalable dans le paramètre du bloc groupe panneau avancé/élément HTML sélectionner une balise <article>."
+
+#: inc/eccp-multiple-settings.php:5304
+msgid "In the group block settings you can change:"
+msgstr "Dans les paramètres du bloc groupe vous pouvez modifier:"
+
+#: inc/eccp-multiple-settings.php:5310 inc/eccp-multiple-settings.php:7401
+msgid "In the ECCP styles panel of the block settings you can modify:"
+msgstr "Dans le panneau ECCP styles des paramètres du bloc vous pouvez modifier:"
+
+#: inc/eccp-multiple-settings.php:5312 inc/eccp-multiple-settings.php:703
+msgid "• Setting the width of the Group block and therefore of the Table Of Contents."
+msgstr "• Réglage largeur du bloc Groupe donc de la Table Des Matières."
+
+#: inc/eccp-multiple-settings.php:5308
+msgid "More customization with the options below:"
+msgstr "Plus de personnalisation avec les options ci-dessous:"
+
+#: inc/eccp-multiple-settings.php:5316
+msgid "Also find the Table of Contents block for download in the reusable blocks tab."
+msgstr "Retrouver aussi le bloc Table des matières en téléchargement dans l'onglet blocs réutilisables."
+
+#: inc/eccp-multiple-settings.php:2449 inc/eccp-multiple-settings.php:4471
+msgid "Block social media icons"
+msgstr "Bloc icônes de réseaux sociaux"
+
+#: inc/eccp-multiple-settings.php:5189
+msgid "• In the block settings style panel added Rectangular Shape,Float Right,Float Left styles."
+msgstr "• Dans le panneau style des paramètres du bloc ajout des styles Rectangular Shape,Float Right,Float Left."
+
+#: inc/eccp-multiple-settings.php:5191
+msgid "Rectangular Shape: Rectangular shape social icons."
+msgstr "Rectangular Shape: icônes sociales de forme rectangulaire."
+
+#: inc/eccp-multiple-settings.php:5193
+msgid "Float Right: Floating right social icons."
+msgstr "Float Right: icônes sociales flottantes à droite."
+
+#: inc/eccp-multiple-settings.php:5195
+msgid "Float Left: Floating left social icons."
+msgstr "Float Left: icônes sociales flottantes à gauche."
+
+#: inc/eccp-multiple-settings.php:5197
+msgid "• For social network icons, enter the label in the block parameters."
+msgstr "• Pour les icônes de réseaux sociaux, saisissez le libellé dans les paramètres du bloc."
+
+#: inc/eccp-multiple-settings.php:5199
+msgid "The label will be visible when hovering over the social media icon."
+msgstr "Le libellé sera visible au survol de l'icône de réseau social."
+
+#: inc/eccp-multiple-settings.php:5201
+msgid "• In the ECCP styles panel of the block settings, option to transform the profile link into a sharing link."
+msgstr "• Dans le panneau ECCP styles des paramètres du bloc,option pour transformer le lien de profil en lien de partage."
+
+#: inc/eccp-multiple-settings.php:5203
+msgid "Find the social icons block with sharing link styles for download in the reusable blocks tab."
+msgstr "Retrouver le bloc icônes sociales avec styles  liens de partage en téléchargement dans l'onglet blocs réutilisables."
+
+#: inc/eccp-multiple-settings.php:5213
+msgid "Rectangular Shape style with profile links"
+msgstr "Style Rectangular Shape avec liens de profil"
+
+#: inc/eccp-multiple-settings.php:5219
+msgid "Rectangular Shape style with share links"
+msgstr "Style Rectangular Shape avec liens de partage"
+
+#: inc/eccp-multiple-settings.php:1831 inc/eccp-multiple-settings.php:2236
+msgid "Image Block"
+msgstr "Bloc Image"
+
+#: inc/eccp-multiple-settings.php:1903 inc/eccp-multiple-settings.php:3696
+msgid "Other styles for the image block"
+msgstr "Autres styles pour le bloc image"
+
+#: inc/eccp-multiple-settings.php:2372 inc/eccp-multiple-settings.php:4541
+msgid "Add new size to image block settings"
+msgstr "Ajouter une nouvelle taille aux paramètres du bloc image"
+
+#: inc/eccp-multiple-settings.php:2363 inc/eccp-multiple-settings.php:5334
+msgid "Change default add media settings"
+msgstr "Modifier les paramètres d'ajout de média par défaut"
+
+#: inc/eccp-multiple-settings.php:4610
+msgid "• Define a new image size to the block parameters as in the example image opposite: Custom (720 * 405px)."
+msgstr "• Définissez une nouvelle taille d'image aux paramètres du bloc comme dans l'exemple image ci-contre: Custom (720 * 405px)."
+
+#: inc/eccp-multiple-settings.php:4612
+msgid "• Once the dimensions parameters and the name of the size have been declared and saved, you must then recreate the thumbnails of your site, so that this new image size appears in the block parameters."
+msgstr "• Une fois les paramètres dimensions et le nom de la taille déclarés et enregistrés, il vous faut ensuite recréer les miniatures de votre site, pour que cette nouvelle taille d'image apparaisse aux paramètres du bloc."
+
+#: inc/eccp-multiple-settings.php:4614
+msgid "For that, I recommend this plugin:"
+msgstr "Pour cela, je vous conseille ce plugin:"
+
+#: inc/eccp-multiple-settings.php:1878 inc/eccp-multiple-settings.php:3768
+msgid "Button Block"
+msgstr "Bloc Bouton"
+
+#: inc/eccp-multiple-settings.php:4260
+msgid "Circle Style Image"
+msgstr "Image Style Cercle"
+
+#: inc/eccp-multiple-settings.php:4264
+msgid "Card Style Image"
+msgstr "Image Style Carte"
+
+#: inc/eccp-multiple-settings.php:4272
+msgid "Grayscale Style Image"
+msgstr "Image style en niveaux de gris"
+
+#: inc/eccp-multiple-settings.php:3928
+msgid "• Activate the styles of the buttons below"
+msgstr "• Activez les styles des boutons ci-dessous"
+
+#: inc/eccp-multiple-settings.php:3930
+msgid "• You then have the Outline hover arrow & Download style available in the block settings"
+msgstr "• Vous avez alors le style \"Outline hover arrow\" & \"Download\" disponible dans les paramètres du bloc"
+
+#: inc/eccp-multiple-settings.php:3932
+msgid "• You have selected in the parameters of the button block the style Fill or Outline or Outline hover arrow"
+msgstr "• Vous avez sélectionné dans les paramètres du bloc bouton le style Plein ou Contour ou Outline hover arrow"
+
+#: inc/eccp-multiple-settings.php:4091
+msgid "• Depending on the Fill or Outline style, you have access to the parameters in the sidebar of the editor:"
+msgstr "• Selon le style Plein ou Contour vous avez accès aux paramètres dans la barre latérale de l'éditeur:"
+
+#: inc/eccp-multiple-settings.php:4093
+msgid "ECCP Hover Fill Style or ECCP Hover Outline Style panel"
+msgstr "panneau ECCP Style Plein Au Survol ou ECCP Style Contour Au Survol"
+
+#: inc/eccp-multiple-settings.php:3936
+msgid "• For the Outline hover arrow style (hover style: outline with arrow icon oriented to the right) the hover style in the front end is automatically applied according to the background color selected in the back office"
+msgstr "• Pour le style \"Outline hover arrow\" (style au survol: contour avec icône flêche orienté vers la droite) le style au survol en front end est appliqué automatiquement en fonction de la couleur d'arrière plan sélectionné en back office"
+
+#: inc/eccp-multiple-settings.php:6245
+msgid "You then have in the toolbar of the block a new button which allows you to apply a Dashicon icon to the left or to the right of the selected text of the button."
+msgstr "Vous avez alors dans la barre d'outils du bloc un nouveau bouton qui permet d'appliquer une icône Dashicon a gauche ou a droite du texte sélectionné du bouton."
+
+#: inc/eccp-multiple-settings.php:1908 inc/eccp-multiple-settings.php:3816
+msgid "Hover fill style button"
+msgstr "Bouton de style Plein au survol"
+
+#: inc/eccp-multiple-settings.php:1910 inc/eccp-multiple-settings.php:3816
+msgid "Hover outline style button"
+msgstr "Bouton de style Contour au survol"
+
+#: inc/eccp-multiple-settings.php:2222 inc/eccp-multiple-settings.php:4036
+msgid "Column Block"
+msgstr "Bloc colonne"
+
+#: inc/eccp-multiple-settings.php:2224 inc/eccp-multiple-settings.php:4448
+msgid "Cover Block"
+msgstr "Bloc Couverture"
+
+#: inc/eccp-multiple-settings.php:4453
+msgid "• To adjust the height of the banner, in the last section of this page you must enable JS scripting for more customization."
+msgstr "• Pour régler la hauteur de la bannière, dans la dernière section de cette page vous devez activer script JS pour plus de personnalisation."
+
+#: inc/eccp-multiple-settings.php:4455
+msgid "You then have access to the settings in the block parameters (ECCP Styles panel)."
+msgstr "Vous avez alors accès aux réglages dans les paramètres du bloc (Panneau ECCP Styles)."
+
+#: inc/eccp-multiple-settings.php:2013 inc/eccp-multiple-settings.php:4099
+msgid "Media & Text Block"
+msgstr "Bloc Média & Texte"
+
+#: inc/eccp-multiple-settings.php:4068
+msgid "style responsive three columns"
+msgstr "style responsive trois colonnes"
+
+#: inc/eccp-multiple-settings.php:3409 inc/eccp-multiple-settings.php:5436
+msgid "Click to Tweet style"
+msgstr "Style Click to Tweet"
+
+#: inc/eccp-multiple-settings.php:3411 inc/eccp-multiple-settings.php:5463
+msgid "Tooltip Format"
+msgstr "Format Info-Bulle"
+
+#: inc/eccp-multiple-settings.php:4068
+msgid "• Activate the styles below for the List block."
+msgstr "• Activer les styles ci-dessous pour le bloc Liste."
+
+#: inc/eccp-multiple-settings.php:3915
+msgid "These styles are for unordered lists except for the \"Ordonned disk\" style."
+msgstr "Ces styles sont destinés aux listes non ordonnées excepté le style \"Ordonned disk\"."
+
+#: inc/eccp-multiple-settings.php:2213 inc/eccp-multiple-settings.php:3917
+#: inc/eccp-multiple-settings.php:6243
+msgid "• In the last section of this page enable JS scripting for more customization."
+msgstr "• Dans la dernière section de cette page activer script JS pour plus de personnalisation."
+
+#: inc/eccp-multiple-settings.php:3919
+msgid "You then have access to the settings parameters for the size & color of the list bullets in the sidebar of the editor respectively:"
+msgstr "Vous avez alors accès aux paramètres de réglages pour la taille & couleur des puces de la liste dans la barre latérale de l'éditeur respectivement: "
+
+#: inc/eccp-multiple-settings.php:3921
+msgid "ECCP Bullets color panel & ECCP Styles panel"
+msgstr "Panneau ECCP Couleur Des Puces &  Panneau ECCP Styles "
+
+#: inc/eccp-multiple-settings.php:3923
+msgid "• For ordered lists:"
+msgstr "• Pour les listes ordonnées:"
+
+#: inc/eccp-multiple-settings.php:4409
+msgid "To have access to the size and color settings of the ordered list bullets, select the default style in the block parameters, except for the \"Ordonned disk\" style."
+msgstr "Pour avoir accès aux paramètres de taille et de couleur des puces de la liste ordonnée, sélectionnez le style par défaut dans les paramètres du bloc, à l'exception du style \"Ordonned disk\"."
+
+#: inc/eccp-multiple-settings.php:4411
+msgid "The \"Ordonned disk\" style does not allow to indent the list as an ordered list by default."
+msgstr "Le style \"Ordonned disk\" ne permet pas d'indenter la liste comme une liste ordonnée par défaut."
+
+#: inc/eccp-multiple-settings.php:3276
+msgid "Apply a background color for the image caption:"
+msgstr "Appliquer une couleur d'arrière plan pour la légende de l'image:"
+
+#: inc/eccp-multiple-settings.php:3279
+msgid "• select a background color below with the color picker"
+msgstr "• sélectionner une couleur arrière plan ci-dessous avec le color picker"
+
+#: inc/eccp-multiple-settings.php:3281
+msgid "• with the toolbar of the image block select highlight"
+msgstr "• avec la barre d'outils du bloc image sélectionner highlight"
+
+#: inc/eccp-multiple-settings.php:1558 inc/eccp-multiple-settings.php:2958
+msgid "Publication Title"
+msgstr "Titre de la publication"
+
+#: inc/eccp-multiple-settings.php:2189 inc/eccp-multiple-settings.php:3686
+msgid "Enable support for new block parameters Introduced since WordPress 6.0"
+msgstr "Activer la prise en charge des nouveaux paramètres de bloc Introduit depuis WordPress 6.0"
+
+#: inc/eccp-multiple-settings.php:859
+msgid "bulleted list color"
+msgstr "couleur des puces pour le bloc liste"
+
+#: inc/eccp-multiple-settings.php:1326
+msgid "bulleted list size in pixel"
+msgstr "taille des puces pour le bloc liste en pixel"
+
+#: inc/eccp-multiple-settings.php:1485
+msgid "Activate bullet list styles"
+msgstr "Activer les styles de liste à puces"
+
+#: inc/eccp-multiple-settings.php:1576
+msgid "title table of contents(max 30 characters)"
+msgstr "titre table des matières(max 30 caractères)"
+
+#: inc/eccp-multiple-settings.php:1597
+msgid "table of contents title color"
+msgstr "couleur du titre de la table des matières"
+
+#: inc/eccp-multiple-settings.php:1597
+msgid "offset navigation anchors for a fixed header(min:0 max:300px)"
+msgstr "décalage des ancres de navigation pour un en-tête fixe(min:0 max:300px)"
+
+#: inc/eccp-multiple-settings.php:1618
+msgid "enable link underline on hover"
+msgstr "activer soulignement des liens au survol"
+
+#: inc/eccp-multiple-settings.php:1496
+msgid "Enable Styles: Rectangular Shape,Float Right,Float Left"
+msgstr "Activer les styles: Rectangular Shape,Float Right,Float Left"
+
+#: inc/eccp-multiple-settings.php:870
+msgid "caption: font size in pixel"
+msgstr "légende: taille de la police en pixel"
+
+#: inc/eccp-multiple-settings.php:891
+msgid "caption: padding in pixel"
+msgstr "légende: marge interne en pixel"
+
+#: inc/eccp-multiple-settings.php:900
+msgid "caption: text color"
+msgstr "légende: couleur du texte"
+
+#: inc/eccp-multiple-settings.php:909
+msgid "caption: background color"
+msgstr "légende: couleur de l'arrière plan"
+
+#: inc/eccp-multiple-settings.php:1363
+msgid "image bloc: Activate circle style"
+msgstr "bloc image: Activer le style cercle"
+
+#: inc/eccp-multiple-settings.php:1478
+msgid "image bloc: Activate filter grayscale style"
+msgstr "bloc image: Activer le style filtre en niveaux de gris"
+
+#: inc/eccp-multiple-settings.php:1487
+msgid "image bloc: Activate card style"
+msgstr "bloc image: Activer le style carte"
+
+#: inc/eccp-multiple-settings.php:1531
+msgid "enable image size setting"
+msgstr "activer paramètre taille image"
+
+#: inc/eccp-multiple-settings.php:1552
+msgid "width in pixels(min:150 max:1024)"
+msgstr "largeur en pixel(min:150 max:1024)"
+
+#: inc/eccp-multiple-settings.php:1561
+msgid "height in pixels(min:150 max:1024)"
+msgstr "hauteur en pixel(min:150 max:1024)"
+
+#: inc/eccp-multiple-settings.php:1571
+msgid "Name of this new image size(max 30 characters)"
+msgstr "Nom de cette nouvelle taille d'image(max 30 caractères)"
+
+#: inc/eccp-multiple-settings.php:1706
+msgid "Image default link type"
+msgstr "Type de lien par défaut de l'image"
+
+#: inc/eccp-multiple-settings.php:1712
+msgid "None"
+msgstr "Aucun"
+
+#: inc/eccp-multiple-settings.php:1713
+msgid "Media file"
+msgstr "Fichier média"
+
+#: inc/eccp-multiple-settings.php:1721
+msgid "Image default size"
+msgstr "Taille de l'image par défaut"
+
+#: inc/eccp-multiple-settings.php:1727
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: inc/eccp-multiple-settings.php:1728
+msgid "Medium"
+msgstr "Moyenne"
+
+#: inc/eccp-multiple-settings.php:1728
+msgid "Large "
+msgstr "Grande "
+
+#: inc/eccp-multiple-settings.php:1730
+msgid "Full Size"
+msgstr "Taille originale"
+
+#: inc/eccp-multiple-settings.php:1379
+msgid "activate buttons styles"
+msgstr "activer les styles des boutons"
+
+#: inc/eccp-multiple-settings.php:1406
+msgid "hover fill style backgound color"
+msgstr "couleur d'arrière-plan du style plein au survol"
+
+#: inc/eccp-multiple-settings.php:1424
+msgid "hover fill style border color"
+msgstr "couleur de bordure du style plein au survol"
+
+#: inc/eccp-multiple-settings.php:1433
+msgid "hover fill style text color"
+msgstr "couleur du texte pour le style plein au survol"
+
+#: inc/eccp-multiple-settings.php:1445
+msgid "hover outline style backgound color"
+msgstr "couleur d'arrière-plan du style contour au survol"
+
+#: inc/eccp-multiple-settings.php:1463
+msgid "hover outline style border color"
+msgstr "couleur de bordure du style contour au survol"
+
+#: inc/eccp-multiple-settings.php:1472
+msgid "hover outline style text color"
+msgstr "couleur du texte pour le style contour au survol"
+
+#: inc/eccp-multiple-settings.php:1496
+msgid "Activate styles for the columns block"
+msgstr "Activer les styles pour le bloc colonnes"
+
+#: inc/eccp-multiple-settings.php:1510
+msgid "Activate styles for the média & text block"
+msgstr "Activer les styles pour le bloc média & texte"
+
+#: inc/eccp-multiple-settings.php:1522
+msgid "Activate styles for the read more block"
+msgstr "Activer les styles pour le bloc Lire La Suite"
+
+#: inc/eccp-multiple-settings.php:1535
+msgid "link text \"Read more\""
+msgstr "texte du lien \"Lire la suite\""
+
+#: inc/eccp-multiple-settings.php:4277
+msgid "• Activate the styles below for the Read More block"
+msgstr "• Activez les styles ci-dessous pour le bloc Lire la suite"
+
+#: inc/eccp-multiple-settings.php:4279
+msgid "• You can then customize the Front End link: Read more messages as a button with an arrow icon pointing to the right"
+msgstr "• Vous pouvez alors personnaliser en Front End le lien: Lire la suite des articles sous forme d'un bouton avec une icône fléche orienté vers la droite"
+
+#: inc/eccp-multiple-settings.php:4326
+msgid "Read more"
+msgstr "Lire La Suite"
+
+#: inc/eccp-multiple-settings.php:2123 inc/eccp-multiple-settings.php:308
+msgid "block style read more"
+msgstr "style du bloc Lire La Suite"
+
+#: inc/eccp-multiple-settings.php:2152 inc/eccp-multiple-settings.php:308
+msgid "block style read more on hover"
+msgstr "style du bloc Lire La Suite au survol"
+
+#: inc/eccp-multiple-settings.php:2176 inc/eccp-multiple-settings.php:4500
+msgid "Heading Block"
+msgstr "Bloc Titre"
+
+#: inc/eccp-multiple-settings.php:4506
+msgid "You then have access to the ECCP Styles panel settings parameters for the border radius, and a Dashicons icon as a prefix as a title indicator."
+msgstr "Vous avez alors accés aux paramètres de réglages Panneau ECCP Styles pour le rayon de bordure, et une icône Dashicons en préfixe comme indicateur de titre."
+
+#: inc/eccp-multiple-settings.php:4508
+msgid "• To change the color of the icon you must change the color of the title."
+msgstr "• Pour changer la couleur de l'icône il faut changer la couleur du titre."
+
+#: inc/eccp-multiple-settings.php:4510
+msgid "The icon inherits the color of the title by default except for the hashtag icon (#333333 by default)."
+msgstr "L'icone hérite par défaut de la couleur du titre excepté pour l'icône hashtag(#333333 par défaut)."
+
+#: inc/eccp-multiple-settings.php:2178 inc/eccp-multiple-settings.php:4467
+msgid "Table Block"
+msgstr "Bloc Tableau"
+
+#: inc/eccp-multiple-settings.php:2263 inc/eccp-multiple-settings.php:4841
+msgid "Latest Posts Block"
+msgstr "Bloc Derniers Articles"
+
+#: inc/eccp-multiple-settings.php:4861
+msgid "• Activate the styles below for the Latest Posts block."
+msgstr "• Activer le style ci-dessous pour le bloc Derniers Articles."
+
+#: inc/eccp-multiple-settings.php:4863
+msgid "The Card style is only functional for the grid layout of the latest Posts."
+msgstr "Le style Carte n'est fonctionnel que pour la disposition en grille des derniers articles."
+
+#: inc/eccp-multiple-settings.php:4865
+msgid "For the featured image use the medium size without any alignment."
+msgstr "Pour l'image mise en avant utiliser la taille moyenne sans aucun alignement."
+
+#: inc/eccp-multiple-settings.php:4944
+msgid "The style rules of the read more tag are common & applied from the read more block."
+msgstr "Les régles de style de la balise lire la suite sont communes & appliquées a partir du bloc lire la suite."
+
+#: inc/eccp-multiple-settings.php:4946
+msgid "• Enable custom avatar for Query Loop block."
+msgstr "• Activer l'avatar personnalisé pour le bloc Boucle De Requête."
+
+#: inc/eccp-multiple-settings.php:4948
+msgid "This personalized avatar must be an image in square format, for example 150 * 150px."
+msgstr "Cet avatar personnalisé doit être une image au format carrée, par exemple de 150 * 150px."
+
+#: inc/eccp-multiple-settings.php:4950
+msgid "In the back office you must then select the custom avatar option in the Settings/Comments menu avatar section by default."
+msgstr "En back office vous devez ensuite sélectionner l'option avatar personnalisé dans le menu Réglages/Commentaires section avatar par défaut."
+
+#: inc/eccp-multiple-settings.php:2334 inc/eccp-multiple-settings.php:4915
+msgid "Query Loop Block"
+msgstr "Bloc Boucle De Requête"
+
+#: inc/eccp-multiple-settings.php:2336 inc/eccp-multiple-settings.php:5082
+msgid "YOAST SEO FAQ BLOCK"
+msgstr "BLOCK FAQ YOAST SEO"
+
+#: inc/eccp-multiple-settings.php:3749 inc/eccp-multiple-settings.php:7241
+msgid "Gallery Block"
+msgstr "Bloc Galerie"
+
+#: inc/eccp-multiple-settings.php:4919
+msgid "• Activate the styles below for the Query Loop Block."
+msgstr "• Activez les styles ci-dessous pour le bloc de boucle de requête."
+
+#: inc/eccp-multiple-settings.php:4921
+msgid "The Card style is only functional for the grid layout."
+msgstr "Le style Carte n'est fonctionnel que pour la disposition en grille."
+
+#: inc/eccp-multiple-settings.php:4471
+msgid "Activate the styles below for the table block:"
+msgstr "Activez les styles ci-dessous pour le bloc tableau:"
+
+#: inc/eccp-multiple-settings.php:4473
+msgid "• You then have the ECCP Stripes style available in the block settings"
+msgstr "• Vous avez alors le style ECCP Stripes disponible dans les paramètres du bloc"
+
+#: inc/eccp-multiple-settings.php:4475
+msgid "• You have access to the settings in the sidebar of the editor:"
+msgstr "• Vous avez accès aux paramètres dans la barre latérale de l'éditeur :"
+
+#: inc/eccp-multiple-settings.php:4477
+msgid "ECCP Table Header & ECCP Table Body panel"
+msgstr "panneau ECCP En-Tête Tableau & ECCP Corps Du Tableau"
+
+#: inc/eccp-multiple-settings.php:4475
+msgid "Enable responsive tables:"
+msgstr "Activer  les tables responsives:"
+
+#: inc/eccp-multiple-settings.php:4475
+msgid "• For a screen resolution < 767px the left column is fixed and the rest of the columns can scroll."
+msgstr "• Pour une résolution écran < 767px la colonne de gauche est fixe et le reste des colonnes peuvent défiler."
+
+#: inc/eccp-multiple-settings.php:4511
+msgid "style ECCP Stripes"
+msgstr "style ECCP Stripes"
+
+#: inc/eccp-multiple-settings.php:2154 inc/eccp-multiple-settings.php:4443
+msgid "More Personalization"
+msgstr "Plus De Personnalisation"
+
+#: inc/eccp-multiple-settings.php:2203 inc/eccp-admin-menu.php:70
+msgid "Plugin Demo"
+msgstr "Démo Du Plugin"
+
+#: inc/eccp-multiple-settings.php:4994
+msgid "Upload image"
+msgstr "Télécharger une image"
+
+#: inc/eccp-multiple-settings.php:4997
+msgid "Enter a URL or upload an image"
+msgstr "Entrez une URL ou téléchargez une image"
+
+#: inc/eccp-multiple-settings.php:7245
+msgid "Option to enable necessary scripts and styles has the Swiper library to transform into Front End the gallery block in Slider."
+msgstr "Option pour activer les scripts et styles nécessaire a la librairie Swiper pour transformer en Front End le bloc galerie en Slider."
+
+#: inc/eccp-multiple-settings.php:4997
+msgid "In the settings of the gallery block added the panel ECCP slider to activate the slider and its setting options."
+msgstr "Dans les paramètres du bloc galerie ajout du panneau ECCP slider pour activer le slider et ses options de réglage."
+
+#: inc/eccp-multiple-settings.php:3816 inc/eccp-multiple-settings.php:7403
+msgid "Quote Block"
+msgstr "Bloc Citation"
+
+#: inc/eccp-multiple-settings.php:7407
+msgid "Enable Quote,Fancy Quote,Parenthesis,First Letter,Arrow custom styles block parameters."
+msgstr "Activer les styles personnalisés Quote,Fancy Quote,Parenthèse,First Letter,Arrow aux paramètres du bloc."
+
+#: inc/eccp-multiple-settings.php:7409
+msgid "The Fancy Quote style is identical to the variation of the Fancy Quote block available in the inserter block under the category: CUSTOM ECCP BLOCKS."
+msgstr "Le style Fancy Quote est identique a la variation du bloc citation Fancy Quote disponible dans l'inséreuse de bloc sous la catégorie: BLOC PERSONNALISÉS ECCP."
+
+#: inc/eccp-multiple-settings.php:4447
+msgid "Enable ReactJS based scripting for more customization native blocks of the Gutenberg editor."
+msgstr "Activer le script basé sur ReactJS  pour plus de personnalisation des blocs natif de Gutenberg"
+
+#: inc/eccp-multiple-settings.php:4449
+msgid "• Custom styles of the list & paragraph block present in the block toolbar & editor sidebar."
+msgstr "• Styles personnalisés du bloc liste & paragraphe présent dans la barre d'outils du bloc & la barre latérale de l'éditeur."
+
+#: inc/eccp-multiple-settings.php:4451
+msgid "• Four-column variation for the column block."
+msgstr "• Variation à quatre colonnes pour le bloc colonnes."
+
+#: inc/eccp-multiple-settings.php:4453
+msgid "• Variation for the quote block called Fancy Quote. This is the same as the Blocquote reusable block and its settings."
+msgstr "• Variation pour le bloc citation appelé Fancy Quote. C'est le même que le bloc réutilisable Blocquote et ses réglages."
+
+#: inc/eccp-multiple-settings.php:6193
+msgid "• Variation for the group block called Info Box."
+msgstr "• Variation pour le bloc groupe appelé Info Box."
+
+#: inc/eccp-multiple-settings.php:6195
+msgid "• Variation for the group block called Countdown Timer."
+msgstr "• Variation pour le bloc groupe appelé Countdown Timer(compte à rebours)."
+
+#: inc/eccp-multiple-settings.php:4457
+msgid "• Variation for the  columns block called Pricing Table."
+msgstr "• Variation pour le bloc colonnes appelé Pricing Table(Tableau Des Prix)."
+
+#: inc/eccp-multiple-settings.php:4457
+msgid "• Variation for the column block called Flip Box."
+msgstr "• Variation pour le bloc colonnes appelé Flip Box(boite à retournement)."
+
+#: inc/eccp-multiple-settings.php:4806
+msgid "• Variation for the paragraph block called Click to Tweet."
+msgstr "• Variation pour le bloc paragraphe appelé Click to Tweet."
+
+#: inc/eccp-multiple-settings.php:4459
+msgid "• Added setting in editor sidebar for Paragraph & Group & Separator block width."
+msgstr "• Ajout d'un réglage dans la barre latérale de l'éditeur pour la largeur du bloc Paragraphe & Groupe & Séparateur."
+
+#: inc/eccp-multiple-settings.php:6192
+msgid "• Added setting in editor sidebar for border-radius for title & group & column block."
+msgstr "• Ajout d'un réglage dans la barre latérale de l'éditeur pour l'arrondi de la bordure pour le bloc titre & groupe & colonne."
+
+#: inc/eccp-multiple-settings.php:6192
+msgid "• In the ECCP Link panel of the Group or Column block parameters, option to add a Front End link to the entire block."
+msgstr "• Dans le panneau ECCP Link des paramètres du bloc Groupe ou Colonne,option pour ajouter un lien en Front End au bloc entier."
+
+#: inc/eccp-multiple-settings.php:6194
+msgid "• Block Group: For the Alignment toolbar control, added Left Alignment, Center, Right Alignment options."
+msgstr "• Bloc Groupe: Pour le contrôle Alignement de la barre d'outils,ajout des options Alignement à gauche,Centrer, Alignement à droite."
+
+#: inc/eccp-multiple-settings.php:5503
+msgid "You then have access for the selected text to the Add tooltip control of the format menu of the block toolbar."
+msgstr "Vous avez alors accès pour le texte sélectionné au controle Ajouter info-bulle du menu format de la barre d'outils du bloc."
+
+#: inc/eccp-multiple-settings.php:5505
+msgid "The Add tooltip button displays a modal window where you can enter your tooltip message."
+msgstr "Le bouton Ajouter info-bulle affiche une fenêtre modale dans laquelle vous pouvez saisir le message de votre info-bulle."
+
+#: inc/eccp-multiple-settings.php:5509
+msgid "paragraph block tooltip"
+msgstr "info-bulle du bloc paragraphe"
+
+#: inc/eccp-multiple-settings.php:5503
+msgid "• Added settings in the sidebar of the editor to Hide/Show a block on Mobile or Tablet or PC."
+msgstr "• Ajout de réglages dans la barre latérale de l'éditeur  pour Masquer/Afficher un bloc sur Mobile ou Tablette ou PC."
+
+#: inc/eccp-multiple-settings.php:6868
+msgid "• Added a simple underline control of selected text(Underline)to the block toolbar's format menu"
+msgstr "• Ajout d'un contôle de soulignement simple du texte sélectionné (Souligner) pour le menu format de la barre d'outils du bloc"
+
+#: inc/eccp-multiple-settings.php:6870
+msgid "• Added a Tooltip control of the selected text (Add tooltip) for the format menu of the block toolbar"
+msgstr "• Ajout d'un contôle Info-bulle du texte sélectionné (Ajouter info-bulle) pour le menu format de la barre d'outils du bloc"
+
+#: inc/eccp-multiple-settings.php:6951
+msgid "• Added a Clear Formatting control for the format menu of thetoolbar of the block. This button removes all the active formats of the selected text(bold, italic etc...)"
+msgstr "• Ajout d'un contôle Supprimer Formats pour le menu format de la barre d'outils du bloc.Ce bouton supprime tous les formats actif du texte sélectionné(gras, italique etc...)"
+
+#: inc/eccp-multiple-settings.php:4767
+msgid "• Added underline selected text control(Underline Colors)for block toolbar format menu according to 7 color palette or custom color"
+msgstr "• Ajout d'un contôle de soulignement du texte sélectionné(Souligner Couleurs)pour le menu format de la barre d'outils du bloc selon une palette de 7 couleurs ou couleur personnalisée"
+
+#: inc/eccp-multiple-settings.php:5499
+msgid "• Added highlight control for selected text to toolbar format menu"
+msgstr "• Ajout d'un contrôle de surlignement pour le texte sélectionné dans le menu format de la barre d'outils"
+
+#: inc/eccp-multiple-settings.php:5501
+msgid "• Added an External Links control for the selected link in the toolbar's format menu."
+msgstr "• Ajout d'un contrôle de Liens Externe pour le lien sélectionné dans le menu format de la barre d'outils."
+
+#: inc/eccp-multiple-settings.php:5503
+msgid "This control adds a Dashicons External icon after the selected link with link + icon color setting."
+msgstr "Ce contrôle ajoute une icône Dashicons External aprés le lien sélectionné avec réglage de la couleur du lien + icône."
+
+#: inc/eccp-multiple-settings.php:5505
+msgid "This highlights that it is an external link that will redirect the user to another website."
+msgstr "Cela met en évidence que c'est un lien externe qui redirigera l'utilisateur vers un autre site Web."
+
+#: inc/eccp-multiple-settings.php:4483
+msgid "List block toolbar"
+msgstr "Barre d'outils du bloc liste"
+
+#: inc/eccp-multiple-settings.php:4484
+msgid "Paragraph block toolbar"
+msgstr "Barre d'outils du bloc paragraphe"
+
+#: inc/eccp-multiple-settings.php:4485
+msgid "Variation block columns"
+msgstr "Variation bloc colonnes"
+
+#: inc/eccp-multiple-settings.php:4504
+msgid "Variation blocks"
+msgstr "Variation blocs"
+
+#: inc/eccp-multiple-settings.php:4511
+msgid "Paragraph block width adjustment"
+msgstr "Réglage largeur bloc paragraphe"
+
+#: inc/eccp-multiple-settings.php:4834
+msgid "Underline selected text"
+msgstr "Souligner le texte sélectionné"
+
+#: inc/eccp-multiple-settings.php:5575
+msgid "Highlight selected text"
+msgstr "Surligner le texte sélectionné"
+
+#: inc/eccp-multiple-settings.php:5581
+msgid "External link icon"
+msgstr "Icône de lien externe"
+
+#: inc/eccp-multiple-settings.php:4528
+msgid "Info Box Variation"
+msgstr "Variation Info Box"
+
+#: inc/eccp-multiple-settings.php:4534
+msgid "Pricing Table Variation"
+msgstr "Variation Tableau Des Prix"
+
+#: inc/eccp-multiple-settings.php:5297
+msgid "• Adds PHP shortcodes and functions to the reusable blocks admin interface."
+msgstr "• Ajoute des shortcodes et des fonctions PHP à l'interface d'administration des blocs réutilisables."
+
+#: inc/eccp-multiple-settings.php:5299
+msgid "• With the shortcodes you can use the reusable blocks in all types of publications,including page builders like Elementor..."
+msgstr "• Avec les shortcodes vous pouvez utiliser les blocs réutilisables dans tous types de publication,y compris les constructeur de pages comme Elementor..."
+
+#: inc/eccp-multiple-settings.php:5301
+msgid "Example image below,embed with Elementor page builder shortcode widget the query loop block for posts with shortcode: [reusable_block id='8370']."
+msgstr "Exemple image ci-dessous, incorporer avec le widget shortcode du constructeur de page Elementor le bloc boucle de requête pour les articles avec le shortcode: [reusable_block id='8370'] ."
+
+#: inc/eccp-multiple-settings.php:5303
+msgid "• Call PHP functions anywhere in your theme, to display reusable blocks."
+msgstr "• Applelez les fonctions PHP n'importe où dans votre thème, pour afficher les blocs réutilisables."
+
+#: inc/eccp-multiple-settings.php:5305
+msgid "With the example image below,to integrate the posts query loop block into your theme:"
+msgstr "Avec l'exemple image ci-dessous,pour intéger le bloc boucle de requête des articles dans votre thème:"
+
+#: inc/eccp-multiple-settings.php:5307
+msgid "'echo eccp_reusable_block(8370);'"
+msgstr "'echo eccp_reusable_block(8370);'"
+
+#: inc/eccp-multiple-settings.php:1536
+msgid "backgound color"
+msgstr "couleur de fond"
+
+#: inc/eccp-multiple-settings.php:1554 inc/eccp-multiple-settings.php:901
+msgid "border color"
+msgstr "couleur de la bordure"
+
+#: inc/eccp-multiple-settings.php:1563 inc/eccp-multiple-settings.php:3471
+msgid "text color"
+msgstr "couleur texte"
+
+#: inc/eccp-multiple-settings.php:3482
+msgid "link color"
+msgstr "couleur liens"
+
+#: inc/eccp-multiple-settings.php:3493
+msgid "background color"
+msgstr "couleur d'arrière plan"
+
+#: inc/eccp-multiple-settings.php:3813
+msgid "Deletion of field: WEBSITE"
+msgstr "Supression du champ: Site WEB"
+
+#: inc/eccp-multiple-settings.php:3826
+msgid "Move the comment area to the bottom of the form"
+msgstr "Déplacer la zone commentaire en bas du formulaire"
+
+#: inc/eccp-multiple-settings.php:3839
+msgid "custom message before comment form"
+msgstr "message personnalisé avant formulaire de commentaire"
+
+#: inc/eccp-multiple-settings.php:3848
+msgid "custom message after comment form"
+msgstr "message personnalisé aprés formulaire de commentaire"
+
+#: inc/eccp-multiple-settings.php:3848
+msgid "center submit button"
+msgstr "centrer le bouton de soummission"
+
+#: inc/eccp-multiple-settings.php:3504
+msgid "enable lightbox"
+msgstr "activer la lightbox"
+
+#: inc/eccp-multiple-settings.php:1575
+msgid "hover backgound color"
+msgstr "couleur de fond au survol"
+
+#: inc/eccp-multiple-settings.php:1593
+msgid "hover border color"
+msgstr "couleur bordure au survol"
+
+#: inc/eccp-multiple-settings.php:1614
+msgid "hover text color"
+msgstr "couleur du texte au survol"
+
+#: inc/eccp-multiple-settings.php:2198
+msgid "Activate styles for the table block"
+msgstr "Activer les styles pour le bloc tableau"
+
+#: inc/eccp-multiple-settings.php:2207
+msgid "Enable responsive tables"
+msgstr "Activer tables responsive"
+
+#: inc/eccp-multiple-settings.php:1850
+msgid "Enable Card style for Latest Posts blocks"
+msgstr "Activer le style Carte pour le bloc Derniers Articles"
+
+#: inc/eccp-multiple-settings.php:1859
+msgid "Enable 5% zoom style on hover for Latest Posts Blocks"
+msgstr "Activer le style zoom 5% au survol pour le blocs Derniers Articles"
+
+#: inc/eccp-multiple-settings.php:1743
+msgid "Enable Card style for Query Loop block"
+msgstr "Activer le style Carte pour le bloc Boucle De Requête"
+
+#: inc/eccp-multiple-settings.php:1752
+msgid "Enable custom avatar for Query Loop block"
+msgstr "Activer un avatar personnalisé pour le bloc Boucle De Requête"
+
+#: inc/eccp-multiple-settings.php:1753
+msgid "Custom avatar url"
+msgstr "URL avatar personnalisé"
+
+#: inc/eccp-multiple-settings.php:1899
+msgid "Custom avatar size in pixel(min:48 max:70)"
+msgstr "Taille de l'avatar personnalisée en pixel(min:48 max:70)"
+
+#: inc/eccp-multiple-settings.php:1909
+msgid "Enable 5% zoom style on hover for Query Loop block"
+msgstr "Activer le style zoom 5% au survol pour le bloc Boucle De Requête"
+
+#: inc/eccp-multiple-settings.php:1785
+msgid "Turn the YOAST FAQ BLOCK into an accordion"
+msgstr "Transformez le BLOC FAQ YOAST SEO en accordéon"
+
+#: inc/eccp-multiple-settings.php:1794
+msgid "width Block FAQ Yoast SEO in %"
+msgstr "largeur Block FAQ Yoast SEO en %"
+
+#: inc/eccp-multiple-settings.php:2278
+msgid "Enable JS scripting for more customization"
+msgstr "Activer script JS pour plus de personnalisation"
+
+#: inc/eccp-multiple-settings.php:2315
+msgid "enable js script & css swiper"
+msgstr "activer script js & css swiper"
+
+#: inc/eccp-multiple-settings.php:2327
+msgid "enable custom styles"
+msgstr "activer styles personnalisés"
+
+#: inc/eccp-multiple-settings.php:4056
+msgid "• Activate the styles below for the column block"
+msgstr "• Activez les styles ci-dessous pour le bloc colonnes"
+
+#: inc/eccp-multiple-settings.php:4058
+msgid "• You then have two styles available in the block parameters: Column reverse mobile & responsive three column"
+msgstr "• Vous avez alors deux styles disponible dans les paramètres du bloc: Column reverse mobile(inversion colonnes sur mobile) & responsive three column"
+
+#: inc/eccp-multiple-settings.php:4060
+msgid "• The activation of styles also improves the display of the column block in back office & front end by adding margin"
+msgstr "• L'activation des styles améliore aussi l'affichage du bloc colonnes en back office & front end par l'ajout de marges"
+
+#: inc/eccp-multiple-settings.php:4368
+msgid "• Enable (below) styles for media & text block"
+msgstr "• Activez (ci-dessous) les styles  pour le bloc média & texte"
+
+#: inc/eccp-multiple-settings.php:4370
+msgid "• In the block settings (Styles panel) activate the Half background style."
+msgstr "• Dans les paramètres du bloc (Panneau Styles) activer le style Half background."
+
+#: inc/eccp-multiple-settings.php:4372
+msgid "• To adjust the half background color, in the last section of this page you need to enable JS scripting for more customization."
+msgstr "• Pour régler la couleur du demi-arrière plan, dans la dernière section de cette page vous devez activer script JS pour plus de personnalisation."
+
+#: inc/eccp-multiple-settings.php:4374
+msgid "You then have access to the settings in the block parameters (ECCP Box Shadow panel)."
+msgstr "Vous avez alors accès aux réglages dans les paramètres du bloc (Panneau ECCP Box Shadow)."
+
+#: inc/eccp-multiple-settings.php:4376
+msgid "• Enable box shadow style."
+msgstr "• Activer le style box shadow."
+
+#: inc/eccp-multiple-settings.php:4379
+msgid "Example settings:"
+msgstr "Exemple de paramètres:"
+
+#: inc/eccp-multiple-settings.php:4381
+msgid "Box Shadow Color:#0E6487 X:20 Y:20 Blur:0 Diffuse:0"
+msgstr "Couleur ombre de boite:#0E6487  X:20 Y:20 Flou:0 Diffuser:0"
+
+#: inc/eccp-multiple-settings.php:4386
+msgid "style half background"
+msgstr "style half background(demi-arrière-plan)"
+
+#: inc/eccp-multiple-settings.php:2026 inc/eccp-multiple-settings.php:4162
+msgid "Read More Block"
+msgstr "Bloc Lire La Suite"
+
+#: inc/eccp-multiple-settings.php:922
+msgid "page title: color"
+msgstr "titre de la page: couleur"
+
+#: inc/eccp-multiple-settings.php:931
+msgid "publication title: alignment"
+msgstr "titre de la publication: alignement"
+
+#: inc/eccp-multiple-settings.php:931
+msgid "Enable support for new Margin parameter for blocks: heading..."
+msgstr "Activer la prise en charge du nouveau paramètre Marge Externe pour les blocs: titre..."
+
+#: inc/eccp-multiple-settings.php:932
+msgid "Enable support for new Padding parameter for blocks: group, column, cover, buton..."
+msgstr "Activer la prise en charge du nouveau paramètre Marge Interne pour les blocs: groupe,colonne,couverture,bouton..."
+
+#: inc/eccp-multiple-settings.php:933
+msgid "Enable support for new Border parameter(radius,color,width,style) for blocks: group, column, image..."
+msgstr "Activer la prise en charge du nouveau paramètre Bordure(rayon,couleur,épaisseur,style) pour les blocs: groupe,colonne,image..."
+
+#: inc/eccp-multiple-settings.php:1130
+msgid "Enable support new block settings: Margin & Padding"
+msgstr "Activer la prise en charge des nouveaux paramètres de bloc: Marge externe & Marge interne"
+
+#: inc/eccp-multiple-settings.php:1161
+msgid "Enable support new block setting: Border"
+msgstr "Activer la prise en charge du nouveau paramètre de bloc: Bordure"
+
+#: inc/eccp-multiple-settings.php:1393
+msgid "Disable for JPEG images the generation of thumbnails in WebP format"
+msgstr "Désactiver pour les images JPEG la génération de  miniatures au format WebP"
+
+#: inc/eccp-multiple-settings.php:1192
+msgid "Disable the download of WebP images & for JPEG images the generation of thumbnails in WebP format"
+msgstr "Désactiver le téléchargement des images WebP & pour les images JPEG la génération de miniatures au format WebP"
+
+#: inc/eccp-multiple-settings.php:3471 inc/eccp-multiple-settings.php:3890
+msgid "Disable WebP image generation introduced by WordPress 6.1"
+msgstr "Désactiver la génération d'image WebP introduit par WordPress 6.1"
+
+#: inc/eccp-multiple-settings.php:1408 inc/eccp-multiple-settings.php:3473
+#: inc/eccp-multiple-settings.php:5229
+msgid "Disable Openverse category from the Medias tab"
+msgstr "Désactiver la catégorie Openverse dans l'onglet Médias"
+
+#: inc/eccp-multiple-settings.php:5233
+msgid "Disable Openverse category from the Medias tab for the block inserter."
+msgstr "Désactiver la catégorie Openverse de l'onglet Médias pour l'inséreuse de blocs."
+
+#: inc/eccp-multiple-settings.php:1425 inc/eccp-multiple-settings.php:3491
+#: inc/eccp-multiple-settings.php:5279
+msgid "Disable settings & styles tabs for sidebar"
+msgstr "Désactiver les onglets paramètres & styles pour la barre latérale"
+
+#: inc/eccp-multiple-settings.php:1468
+msgid "Enable editor background color"
+msgstr "Activer couleur d'arrière plan editeur"
+
+#: inc/eccp-multiple-settings.php:1481
+msgid "Editor background color"
+msgstr "Couleur d'arrière plan editeur"
+
+#: inc/eccp-multiple-settings.php:1552
+msgid "enable fluid spacing"
+msgstr "activer l'espacement fluide"
+
+#: inc/eccp-multiple-settings.php:1567
+msgid "min viewport in pixel"
+msgstr "résolution min en pixel"
+
+#: inc/eccp-multiple-settings.php:1576
+msgid "max viewport in pixel"
+msgstr "résolution max en pixel"
+
+#: inc/eccp-multiple-settings.php:1586 inc/eccp-multiple-settings.php:1604
+#: inc/eccp-multiple-settings.php:1622 inc/eccp-multiple-settings.php:1640
+#: inc/eccp-multiple-settings.php:1658 inc/eccp-multiple-settings.php:1676
+#: inc/eccp-multiple-settings.php:1694
+msgid "min spacing in pixel"
+msgstr "espacement min en pixel"
+
+#: inc/eccp-multiple-settings.php:1595 inc/eccp-multiple-settings.php:1613
+#: inc/eccp-multiple-settings.php:1631 inc/eccp-multiple-settings.php:1649
+#: inc/eccp-multiple-settings.php:1667 inc/eccp-multiple-settings.php:1685
+#: inc/eccp-multiple-settings.php:1703
+msgid "max spacing in pixel"
+msgstr "espacement max en pixel"
+
+#: inc/eccp-multiple-settings.php:3794 inc/eccp-multiple-settings.php:5523
+msgid "Background color"
+msgstr "Couleur d'arrière plan"
+
+#: inc/eccp-multiple-settings.php:3796 inc/eccp-multiple-settings.php:5744
+msgid "Fluid Spacing"
+msgstr "Espacement Fluide"
+
+#: inc/eccp-multiple-settings.php:5748
+msgid "Fluid spacing applies to the editor's seven padding, margin, and block spacing presets."
+msgstr "L'espacement fluide s'applique aux sept valeurs prédéfinies des marges interne, externe et espacement des blocs de l'editeur."
+
+#: inc/eccp-multiple-settings.php:5750
+msgid "This allows the spacings to adapt to changes in screen size."
+msgstr "Cela permet aux espacements de s'adapter aux changements de taille de l'écran."
+
+#: inc/eccp-multiple-settings.php:5752
+msgid "Fluid spacing is active for the screen resolution set below in pixels [min viewport  max viewport]."
+msgstr "L'espacement fluide est actif pour la résolution d'écran définit ci-dessous en pixel[Résolution min  Résolution max]."
+
+#: inc/eccp-multiple-settings.php:5754
+msgid "If for a setting among the seven predefined settings you do not want fluid spacing, enter min spacing = max spacing."
+msgstr "Si pour un  réglage parmi les sept réglages prédéfinies vous ne souhaitez pas d'espacement fluide renseigner espacement min = espacement max."
+
+#: inc/eccp-multiple-settings.php:5873
+msgid "Fluid Spacing 1"
+msgstr "Espacement Fluide 1"
+
+#: inc/eccp-multiple-settings.php:5873
+msgid "Fluid Spacing 2"
+msgstr "Espacement Fluide 2"
+
+#: inc/eccp-multiple-settings.php:5873
+msgid "Fluid Spacing 3"
+msgstr "Espacement Fluide 3"
+
+#: inc/eccp-multiple-settings.php:5873
+msgid "Fluid Spacing 4"
+msgstr "Espacement Fluide 4"
+
+#: inc/eccp-multiple-settings.php:5873
+msgid "Fluid Spacing 5"
+msgstr "Espacement Fluide 5"
+
+#: inc/eccp-multiple-settings.php:5873
+msgid "Fluid Spacing 6"
+msgstr "Espacement Fluide 6"
+
+#: inc/eccp-multiple-settings.php:5873
+msgid "Fluid Spacing 7"
+msgstr "Espacement Fluide 7"
+
+#: inc/eccp-multiple-settings.php:5283
+msgid "Disable the Parameters & Styles sub-panels for all blocks in order to display the block's parameters and styles in the block panel of the editor sidebar."
+msgstr "Désactiver pour tous les blocs les sous-panneaux paramètres & Styles afin d'afficher les paramètres et styles du bloc dans le seul panneau bloc de la barre latérale de l'editeur."
+
+#: inc/eccp-multiple-settings.php:3894
+msgid "As of version 6.1, when uploading a JPEG image to the media library, WordPress will now create WebP versions of the image and its thumbnails in addition to the JPEG thumbnails it already creates."
+msgstr "À partir de la version 6.1, lors du téléchargement d'image JPEG dans la médiathèque, WordPress créera désormais des versions WebP de l'image et de ses miniatures en plus des miniatures JPEG qu'il crée déjà."
+
+#: inc/eccp-multiple-settings.php:3896
+msgid "Conversely for compatibility with some extensions that do not use the WebP format, when uploading a WebP image to the media library, WordPress will create JPEG versions of the image and its thumbnails in addition to the WebP thumbnails it already creates."
+msgstr "Réciproquement pour une compatibilité avec certaines extensions qui n'utilisent pas le format WebP, lors du téléchargement d'image WebP dans la médiathèque, WordPress créera des versions JPEG de l'image et de ses miniatures en plus des miniatures WebP qu'il crée déjà."
+
+#: inc/eccp-multiple-settings.php:3896
+msgid "This will significantly increase the space used by your media files on your hosting."
+msgstr "Cela va augmenter considérablement l'espace utilisé par vos fichiers média sur votre hébergement."
+
+#: inc/eccp-multiple-settings.php:937
+msgid "left"
+msgstr "gauche"
+
+#: inc/eccp-multiple-settings.php:938
+msgid "center"
+msgstr "centre"
+
+#: inc/eccp-multiple-settings.php:939
+msgid "right"
+msgstr "droit"
+
+#: inc/eccp-admin-menu.php:103 inc/eccp-multiple-settings.php:1107
+msgid "ADDONS REUSABLE BLOCKS"
+msgstr "ADDONS BLOCS RÉUTILISABLES"
+
+#: inc/eccp-admin-menu.php:129 inc/eccp-multiple-settings.php:1116
+msgid "Activate reusable blocks menu"
+msgstr "Activer le menu des blocs réutilisables"
+
+#: inc/eccp-multiple-settings.php:1875 inc/eccp-admin-menu.php:2458
+#: inc/eccp-admin-menu.php:5293
+msgid "Enable the display of reusable blocks by a shortcode"
+msgstr "Activer l'affichage des blocs réutilisables par un shortcode"
+
+#: inc/eccp-multiple-settings.php:3181 inc/eccp-multiple-settings.php:6435
+msgid "Automatically add content before and/or after your posts, articles, pages or any type of custom post."
+msgstr "Ajouter automatiquement du contenu avant et/ou après vos publications, articles, pages ou tout type de publication personnalisée."
+
+#: inc/eccp-multiple-settings.php:6485
+msgid "• You must first create reusable blocks which must have the status published."
+msgstr "• Vous devez au préalable créer des blocs réutilisables qui doivent avoir le statut publiés."
+
+#: inc/eccp-multiple-settings.php:6487
+msgid "• Select in the drop-down zones according to the type of publication articles, page or custom post type the reusable block to be inserted before and/or after the content."
+msgstr "• Sélectionner  dans les zones déroulantes selon le type de publication articles,page ou type de publications personnalisées le bloc réutilisable a insérer avant et/ou aprés le contenu."
+
+#: inc/eccp-multiple-settings.php:6489
+msgid "• You thus have the possibility of automatically inserting in the articles the block of social icon personalized by this extension, or for example an author bio."
+msgstr "• Vous avez ainsi la possibilité d'insérer automatiquement dans les articles le bloc d'icônes sociales personnalisé par cette extension, ou par exemple une bio d'auteur."
+
+#: inc/eccp-multiple-settings.php:6558
+msgid "• To automatically add content before and/or after your events created with The Events Calendar plugin you must configure:"
+msgstr "• Pour Ajouter automatiquement du contenu avant et/ou après vos évènemments créer avec le plugin The Events Calendar vous devez paramétrer:"
+
+#: inc/eccp-multiple-settings.php:6560
+msgid "View tab / Event template section: Default page theme."
+msgstr "Onglet Affichage / section Modèle d’évènements : Thème par défaut des pages."
+
+#: inc/eccp-multiple-settings.php:6558
+msgid "• You can also block your content before/after to appear on all types of publications via the Panel before/after content of the Publications sidebar."
+msgstr "• Vous pouvez également empêcher votre contenu avant/après de s'afficher sur tous type de publication via le Panneau Contenu avant/aprés publication de la barre latérale de Publications."
+
+#: inc/eccp-multiple-settings.php:6560
+msgid "It is also possible to prevent your before/after content from appearing on all types of publications via quick or grouped editing for all screens that list publications."
+msgstr "Il est aussi possible d'empêcher votre contenu avant/après de s'afficher sur tous type de publication via l'edition rapide ou groupé pour tous les écrans qui liste les publications."
+
+#: inc/eccp-multiple-settings.php:6510
+msgid "Warning! To use this feature on a custom post type you must enable custom field support for your CPT."
+msgstr "Attention! pour utiliser cette fonctionnalité sur un type de publication personnalisé vous devez activer le support champ personnalisé de votre CPT."
+
+#: inc/eccp-multiple-settings.php:6730
+msgid "Warning! use bulk editing to prevent your before/after content from showing on pages established with a page builder like Elementor which is not compatible."
+msgstr "Attention! utiliser l'édition groupé pour empêcher votre contenu avant/après de s'afficher sur les pages établient avec un constructeur de page comme Elementor qui n'est pas compatible."
+
+#: inc/eccp-admin-menu.php:6483
+msgid "POST"
+msgstr "ARTICLES"
+
+#: inc/eccp-admin-menu.php:6639
+msgid "PAGE"
+msgstr "PAGES"
+
+#: inc/eccp-admin-menu.php:6665
+msgid "CUSTOM POST TYPE"
+msgstr "TYPE DE PUBLICATIONS PERSONNALISÉES"
+
+#: inc/eccp-multiple-settings.php:2150 inc/eccp-multiple-settings.php:2170
+#: inc/eccp-multiple-settings.php:2190
+msgid "Before the content"
+msgstr "Avant le contenu"
+
+#: inc/eccp-multiple-settings.php:2159 inc/eccp-multiple-settings.php:2179
+#: inc/eccp-multiple-settings.php:2199
+msgid "After the content"
+msgstr "Aprés le contenu"
+
+#: inc/eccp-multiple-settings.php:1055
+msgid "quotation marks color"
+msgstr "couleur des guillemets"
+
+#: inc/eccp-multiple-settings.php:852 inc/eccp-multiple-settings.php:1101
+msgid "blockquote(back office)width: 0 to 100 in %"
+msgstr "blockquote(back office)largeur: 0 to 100 en %"
+
+#: inc/eccp-multiple-settings.php:861 inc/eccp-multiple-settings.php:1110
+msgid "blockquote(front end)width: 0 to 100 in %"
+msgstr "blockquote(front end)largeur: 0 to 100 en %"
+
+#: inc/eccp-multiple-settings.php:1091 inc/eccp-multiple-settings.php:1110
+msgid "custom paragraph(back office)width: 0 to 100 in %"
+msgstr "bloc Mettre En Évidence(back office)largeur: 0 to 100 en %"
+
+#: inc/eccp-multiple-settings.php:1100 inc/eccp-multiple-settings.php:1119
+msgid "custom paragraph(front end)width: 0 to 100 in %"
+msgstr "bloc Mettre En Évidence(front end)largeur: 0 to 100 en %"
+
+#: inc/eccp-admin-menu.php:141 inc/eccp-multiple-settings.php:1290
+msgid "ELEMENTOR PAGE BUIDER"
+msgstr "CONSTRUCTEUR DE PAGES ELEMENTOR"
+
+#: inc/eccp-multiple-settings.php:1298 inc/eccp-multiple-settings.php:1322
+msgid "Activate color palette synchronisation"
+msgstr "Activer la synchronisation de la palette de couleurs"
+
+#: inc/eccp-admin-menu.php:149 inc/eccp-multiple-settings.php:1314
+msgid "DIVI THEME"
+msgstr "THÈME DIVI"
+
+#: inc/eccp-multiple-settings.php:2290
+msgid "choose synchronization mode"
+msgstr "choisissez le mode de synchronization"
+
+#: inc/eccp-admin-menu.php:197
+msgid "Customize Back Office"
+msgstr "Personnaliser Back Office"
+
+#: inc/eccp-multiple-settings.php:2786
+msgid "CUSTOMIZE THE BACK OFFICE"
+msgstr "PERSONNALISER LE BACK OFFICE"
+
+#: inc/eccp-admin-menu.php:198
+msgid "Customize Front End"
+msgstr "Personnaliser Front End"
+
+#: inc/eccp-multiple-settings.php:3087
+msgid "CUSTOMIZE THE FRONT END"
+msgstr "PERSONNALISER LE FRONT END"
+
+#: inc/eccp-multiple-settings.php:2337
+msgid "Enable Post ID & Featured Image Columns for Articles and CPT"
+msgstr "Activer les colonnes ID de publication & image en avant pour Articles et CPT"
+
+#: inc/eccp-multiple-settings.php:2351
+msgid "Enable Post ID & Featured Image Columns for Pages"
+msgstr "Activer les colonnes ID de publication & image en avant pour les pages"
+
+#: inc/eccp-multiple-settings.php:2550
+msgid "featured image thumbnail width(min:100 max:200)"
+msgstr "largeur de la vignette pour l'image en avant(min:100 max:200)"
+
+#: inc/eccp-multiple-settings.php:2560
+msgid "enable filter by author for all post types"
+msgstr "activer filtre par auteur pour tous les types de publication"
+
+#: inc/eccp-multiple-settings.php:2573
+msgid "enable category filter for custom post types"
+msgstr "activer filtre catégorie pour les types de publication personnalisé"
+
+#: inc/eccp-multiple-settings.php:2676
+msgid "enable filter by date range for Post & CPT"
+msgstr "activer le filtre par plage de date pour articles & CPT"
+
+#: inc/eccp-multiple-settings.php:2806
+msgid "enable filter by publication status"
+msgstr "activer le filtre par statuts de publication"
+
+#: inc/eccp-multiple-settings.php:2820
+msgid "activate publication status for bulk actions of articles"
+msgstr "activer status de publication pour les actions groupés des articles"
+
+#: inc/eccp-multiple-settings.php:2387
+msgid "enable the columns ID, Dimensions, File size"
+msgstr "activer les colonnes ID, Dimensions, Taille du fichier"
+
+#: inc/eccp-multiple-settings.php:2722
+msgid "enable filter by dates range for the media library in view of list"
+msgstr "activer le filtre par plage de dates pour la médiathèque en vue liste"
+
+#: inc/eccp-multiple-settings.php:2415 inc/eccp-multiple-settings.php:3292
+#: inc/eccp-multiple-settings.php:6939
+msgid "allow upload media in SVG format"
+msgstr "autoriser le téléchargement de médias au format SVG"
+
+#: inc/eccp-multiple-settings.php:2523
+msgid "set image alt text by title"
+msgstr "définir texte alternatif  image selon son titre"
+
+#: inc/eccp-multiple-settings.php:2537
+msgid "set image caption according to its title"
+msgstr "définir légende image selon son titre"
+
+#: inc/eccp-multiple-settings.php:2619
+msgid "enable last login column"
+msgstr "activer colonne dernière connexion"
+
+#: inc/eccp-multiple-settings.php:2856
+msgid "enable user registration date column"
+msgstr "activer colonne date enregistrement utilisateurs"
+
+#: inc/eccp-multiple-settings.php:2869
+msgid "Allow contributors to upload media"
+msgstr "Autoriser les contributeurs a télécharger des médias"
+
+#: inc/eccp-multiple-settings.php:2427 inc/eccp-multiple-settings.php:2905
+#: inc/eccp-multiple-settings.php:6502
+msgid "Disable language selector"
+msgstr "Désactiver le sélecteur de langue"
+
+#: inc/eccp-multiple-settings.php:2487
+msgid "add error login custom messsage"
+msgstr "ajouter un message personnalisé d'erreur de connexion"
+
+#: inc/eccp-multiple-settings.php:2512 inc/eccp-multiple-settings.php:3185
+#: inc/eccp-multiple-settings.php:6841
+msgid "Disable Admin Email Verification Request"
+msgstr "Désactiver la demande de vérification de l’adresse e-mail administrateur"
+
+#: inc/eccp-multiple-settings.php:2496
+msgid "enable custom logo"
+msgstr "activer un logo personnalisé"
+
+#: inc/eccp-multiple-settings.php:2454
+msgid "Custom logo url"
+msgstr "URL du logo personnalisé"
+
+#: inc/eccp-multiple-settings.php:2482
+msgid "width logo in pixel(min:100 max:400)"
+msgstr "largeur logo en pixel(min:100 max:400)"
+
+#: inc/eccp-multiple-settings.php:2530
+msgid "height logo in pixel(min:25 max:400)"
+msgstr "hauteur logo en pixel(min:25 max:400)"
+
+#: inc/eccp-multiple-settings.php:2539
+msgid "enable login form customization"
+msgstr "activer la personnalisation du formulaire de connexion"
+
+#: inc/eccp-multiple-settings.php:2555
+msgid "Login Form Page: background color"
+msgstr "Page formulaire de connexion: couleur de fond"
+
+#: inc/eccp-multiple-settings.php:2566
+msgid "Login Form Page: footer text color"
+msgstr "couleur du texte en pied de page"
+
+#: inc/eccp-multiple-settings.php:2564
+msgid "Login Form: background color"
+msgstr "Formulaire de connexion: couleur de fond"
+
+#: inc/eccp-multiple-settings.php:2535
+msgid "Login Form: text color"
+msgstr "Formulaire de connexion: couleur du texte"
+
+#: inc/eccp-multiple-settings.php:2560
+msgid "Button: background color"
+msgstr "Bouton: couleur de fond"
+
+#: inc/eccp-multiple-settings.php:2569
+msgid "Button: border color"
+msgstr "Bouton: couleur bordure"
+
+#: inc/eccp-multiple-settings.php:2551
+msgid "Button: text color"
+msgstr "Bouton: couleur du texte"
+
+#: inc/eccp-multiple-settings.php:2596
+msgid "Button: background color on hover"
+msgstr "Bouton: couleur de fond au survol"
+
+#: inc/eccp-multiple-settings.php:2605
+msgid "Button: border color on hover"
+msgstr "Bouton: couleur de la bordure au survol"
+
+#: inc/eccp-multiple-settings.php:2569
+msgid "Button: text color on hover"
+msgstr "Bouton: couleur du texte au survol"
+
+#: inc/eccp-multiple-settings.php:2650
+msgid "Info Notice: background color"
+msgstr "Notice Info: couleur de fond"
+
+#: inc/eccp-multiple-settings.php:2659
+msgid "Info Notice: left border color"
+msgstr "Notice Info: couleur bordure gauche"
+
+#: inc/eccp-multiple-settings.php:2579
+msgid "Info Notice: text color"
+msgstr "Notice Info: couleur du texte"
+
+#: inc/eccp-multiple-settings.php:2677
+msgid "Error Notice: background color"
+msgstr "Notice d'Erreur: couleur de fond"
+
+#: inc/eccp-multiple-settings.php:2686
+msgid "Error Notice: left border color"
+msgstr "Notice d'Erreur: couleur bordure gauche"
+
+#: inc/eccp-multiple-settings.php:2597
+msgid "Error Notice: text color"
+msgstr "Notice d'Erreur: couleur du texte"
+
+#: inc/eccp-multiple-settings.php:3152
+msgid "Enable background image"
+msgstr "Activer image de fond"
+
+#: inc/eccp-multiple-settings.php:3162
+msgid "Custom background image url"
+msgstr "url image arrière plan personnalisé"
+
+#: inc/eccp-multiple-settings.php:3266
+msgid "fixed background image"
+msgstr "image de fond fixe"
+
+# inc/eccp-multiple-settings.php:9187
+#: inc/eccp-multiple-settings.php:3280 inc/eccp-multiple-settings.php:4094
+msgid "Redirect after login"
+msgstr "Rediriger après la connexion"
+
+#: inc/eccp-multiple-settings.php:2964
+msgid "change email sender by default"
+msgstr "changer l'expéditeur de l'e-mail par défaut"
+
+#: inc/eccp-multiple-settings.php:2978
+msgid "EMAIL SENDER ADDRESS"
+msgstr "ADRESSE EXPÉDITEUR DE L'EMAIL"
+
+#: inc/eccp-multiple-settings.php:2987
+msgid "EMAIL SENDER NAME"
+msgstr "NOM EXPÉDITEUR DE L'E-MAIL"
+
+#: inc/eccp-multiple-settings.php:3107
+msgid "«Return-Path» corresponds to «From-Address»"
+msgstr "«Adresse-Retour» correspond à «Adresse-De»"
+
+#: inc/eccp-multiple-settings.php:870
+msgid "font weight"
+msgstr "graisse du texte"
+
+#: inc/eccp-multiple-settings.php:876
+msgid "500"
+msgstr "500"
+
+#: inc/eccp-multiple-settings.php:877
+msgid "600"
+msgstr "600"
+
+#: inc/eccp-multiple-settings.php:878
+msgid "700"
+msgstr "700"
+
+#: inc/eccp-multiple-settings.php:879
+msgid "800"
+msgstr "800"
+
+#: inc/eccp-multiple-settings.php:880
+msgid "900"
+msgstr "900"
+
+#: inc/eccp-multiple-settings.php:888
+msgid "font size in pixel"
+msgstr "taille du texte en pixel"
+
+#: eccp-admin-menu.php:105 inc/eccp-multiple-settings.php:976
+msgid "Introduction"
+msgstr "Introduction"
+
+#: inc/eccp-multiple-settings.php:1388
+msgid "More blocks for Gutenberg editor"
+msgstr "Plus de blocs pour l'éditeur Gutenberg"
+
+#: inc/eccp-multiple-settings.php:1390
+msgid "In this section you can download reusable blocks in json format."
+msgstr "Dans cette section vous pouvez télécharger des blocs réutilisables au format json."
+
+#: inc/eccp-multiple-settings.php:1392
+msgid "For advice blocks, information, warning, alert,"
+msgstr "Pour les blocs conseils, information, avertissement, alerte,"
+
+#: inc/eccp-multiple-settings.php:1395
+msgid "you must first install the extension:"
+msgstr "vous devez au préalable installer l'extension:"
+
+#: inc/eccp-multiple-settings.php:983
+msgid "After install Settings menu/Kadence Blocks:"
+msgstr "Après installation menu Réglages/Kadence Blocks:"
+
+#: inc/eccp-multiple-settings.php:985
+msgid "Choose whether or not to enable the option: Match the width of the editor to the width of your sites."
+msgstr "Choisisez d'activer ou non l'option: Faites correspondre la largeur de l'éditeur à la largeur de vos sites."
+
+#: inc/eccp-admin-menu.php:125 inc/eccp-multiple-settings.php:1408
+msgid "Manage reusable blocks"
+msgstr "Gérer les blocs réutilisables"
+
+#: inc/eccp-admin-menu.php:127 inc/eccp-multiple-settings.php:1426
+msgid "Principles of reusable blocks"
+msgstr "Principes des blocs réutilisables"
+
+#: inc/eccp-multiple-settings.php:1429
+msgid "• Synchronization: the contents of the blocks are synchronized,if you modify the contents of the reusable block,all the occurrences of the block on the site are modified."
+msgstr "• Synchronisation: le contenu des blocs est synchronisé,si vous modifiez le contenu du bloc réutilisable,toutes les occurrences du bloc sur le site sont modifiées."
+
+#: inc/eccp-multiple-settings.php:1432
+msgid "• Desynchronization: Synchronization can be turned off with one click using the «convert to normal block» option.Its content can then be modified without altering other content using the same original reusable block."
+msgstr "• Désynchronisation : La synchronisation peut être désactivée en un clic grâce à l'option «convertir en bloc normal». Son contenu peut alors être modifié sans altérer les autres contenus en utilisant le même bloc réutilisable d'origine."
+
+#: inc/eccp-multiple-settings.php:1004
+msgid "• Access to the menu for reusable block management is done directly from the Gutenberg editor."
+msgstr "• L'accès au menu pour la gestion des blocs réutilisables se fait directement a partir de l'editeur Gutenberg."
+
+#: inc/eccp-multiple-settings.php:1006
+msgid "• Click on Import from JSON and select the JSON file and after refresh the screen key F5."
+msgstr "• Cliquez sur Importer depuis le JSON et sélectionnez le fichier JSON,après rafraichissez l'ecran touche F5."
+
+#: inc/eccp-multiple-settings.php:1008
+msgid "• Now in the Gutenberg editor click on the + icon to add a block from the reusable blocks tab."
+msgstr "• Maintenant a partir de l'editeur Gutenberg cliquer sur l'icone + pour ajouter un bloc depuis l'onglet blocs réutilisables."
+
+#: inc/eccp-admin-menu.php:110 inc/eccp-multiple-settings.php:1014
+msgid "Download advice block"
+msgstr "Télécharger le bloc conseil"
+
+#: inc/eccp-admin-menu.php:112 inc/eccp-multiple-settings.php:1028
+msgid "Download information block"
+msgstr "Télécharger le bloc information"
+
+#: inc/eccp-admin-menu.php:114 inc/eccp-multiple-settings.php:1040
+msgid "Download warning block"
+msgstr "Télécharger le bloc attention"
+
+#: inc/eccp-admin-menu.php:116 inc/eccp-multiple-settings.php:1052
+msgid "Download alert block"
+msgstr "Télécharger le bloc alerte"
+
+#: inc/eccp-multiple-settings.php:2593 inc/eccp-multiple-settings.php:6001
+msgid "Download the price table block"
+msgstr "Télécharger le bloc Table Des Prix"
+
+#: inc/eccp-multiple-settings.php:6004 inc/eccp-multiple-settings.php:6021
+msgid "To use this block you must first, in the settings page of the extension Customize Gutenberg Blocks tab/More customization, have activated the JS script option for more customization."
+msgstr "Pour utiliser ce  bloc vous devez au préalable, dans la page de réglages de l'extension Onglet Personnaliser Blocs Gutenberg/Plus de personnalisation,avoir activé l'option script JS pour plus de personnalisation."
+
+#: inc/eccp-multiple-settings.php:6012
+msgid "Pricing Table Block"
+msgstr "Bloc Table Des Prix"
+
+#: inc/eccp-multiple-settings.php:2595 inc/eccp-multiple-settings.php:6017
+msgid "Download the Articles Query Loop block"
+msgstr "Télécharger le bloc Boucle De Requête Articles"
+
+#: inc/eccp-multiple-settings.php:6029
+msgid "Posts Query Loop Block"
+msgstr "Bloc Boucle De Requête Articles"
+
+#: inc/eccp-multiple-settings.php:3247 inc/eccp-multiple-settings.php:7118
+msgid "Download social icons block with share links"
+msgstr "Télécharger le bloc icônes sociales avec liens de partage"
+
+#: inc/eccp-multiple-settings.php:3337 inc/eccp-multiple-settings.php:7332
+msgid "Download the table of contents block"
+msgstr "Télécharger le bloc table des matières"
+
+#: inc/eccp-multiple-settings.php:7383
+msgid "This reusable block is a customization of the group block:"
+msgstr "Ce bloc réutilisable est une personnalisation du bloc groupe:"
+
+#: inc/eccp-multiple-settings.php:7385
+msgid "• Block Settings Styles Panel: Table Of Contents."
+msgstr "• Panneau Styles des paramètres du bloc: Table Of Contents."
+
+#: inc/eccp-multiple-settings.php:7387
+msgid "• Advanced HTML ELEMENT/block settings panel: <article>."
+msgstr "• Panneau Avancé des paramètres du bloc/ÉLÉMENT HTML: <article>."
+
+#: inc/eccp-multiple-settings.php:7389
+msgid "• Insertion of a code block to fill in a title for the table of contents in the Back Office."
+msgstr "• Insertion d'un bloc code pour renseigner un intitulé pour la table des matières en Back Office."
+
+#: inc/eccp-multiple-settings.php:7391
+msgid "• This title is hidden in Front End."
+msgstr "• Cet intitulé est masqué en Front End."
+
+#: inc/eccp-multiple-settings.php:7338
+msgid "In the Group block settings you can change:"
+msgstr "Dans les paramètres du bloc Groupe vous pouvez modifier:"
+
+#: inc/eccp-multiple-settings.php:7340
+msgid "• Background color,text color & size,border radius."
+msgstr "• La couleur d'arrière plan, couleur & taille du texte , rayon de bordure."
+
+#: inc/eccp-multiple-settings.php:7342
+msgid "In the plugin settings page,Customize tab Gutenberg Blocks/Block Group/table of contents style:"
+msgstr "Dans la page de paramètres de l'extension,onglet Personnaliser Blocs Gutenberg/Bloc Groupe/style table des matières:"
+
+#: inc/eccp-multiple-settings.php:7344
+msgid "• title,title color,for the table of contents"
+msgstr "• titre,couleur du titre,pour la table des matières "
+
+#: inc/eccp-multiple-settings.php:7346
+msgid "• enable link underlining on hover"
+msgstr "• activer un soulignement des liens au survol"
+
+#: inc/eccp-multiple-settings.php:7348
+msgid "• offset navigation anchors for a fixed header"
+msgstr "• décalage des ancres de navigation pour un en-tête fixe"
+
+#: inc/eccp-multiple-settings.php:7350
+msgid "Warning! the table of contents is only visible in Front End"
+msgstr "Attention! la table des matières n'est visible qu'en Front End."
+
+#: inc/eccp-multiple-settings.php:5320 inc/eccp-multiple-settings.php:7407
+msgid "Once the reusable block has been inserted into the publication, click on the \"convert to normal blocks\" icon on the block's toolbar."
+msgstr "Une fois le bloc réutilisable inséré dans la publication, cliquer sur l'icône \"convertir en blocs normaux\" de la barre d'outils du bloc."
+
+#: inc/eccp-multiple-settings.php:7360
+msgid "Table of contents block"
+msgstr "Bloc table des matières"
+
+#: inc/eccp-multiple-settings.php:7122
+msgid "Download Social icons block with sharing links for social networks: Tweeter,Pinterest,Facebook,Mail,Linkedin & WhatsApp."
+msgstr "Télécharger le bloc icônes Sociales avec liens de partage pour les réseaux sociaux: Tweeter,Pinterest,Facebook,Mail,Linkedin & WhatsApp."
+
+#: inc/eccp-multiple-settings.php:7124
+msgid "The share link for Pinterest pass the URL of the Featured Image if present for Articles & Custom Post Types."
+msgstr "Le lien de partage pour Pinterest transmet l'URL de l'Image En Avant si elle est présente pour les articles & types de publication personnalisées."
+
+#: inc/eccp-admin-menu.php:125 inc/eccp-multiple-settings.php:1119
+msgid "Blockquote download & settings"
+msgstr "Téléchargement & réglages du bloc blockquote"
+
+#: inc/eccp-admin-menu.php:127 inc/eccp-multiple-settings.php:2170
+msgid "Download & settings Custom Paragraph Block"
+msgstr "Téléchargement & réglages du bloc mettre en évidence"
+
+#: inc/eccp-multiple-settings.php:885 inc/eccp-multiple-settings.php:1512
+msgid "Customize the color palette"
+msgstr "Personnaliser la palette de couleurs"
+
+#: inc/eccp-multiple-settings.php:1514
+msgid "You can sync Elementor color palette with Gutenberg color palette."
+msgstr "Vous pouvez synchroniser la palette de couleurs Elementor avec la palette de couleurs Gutenberg."
+
+#: inc/eccp-multiple-settings.php:1516
+msgid "• Color 1 to 4 Gutenberg: Elementor system colors"
+msgstr "• Couleur 1 à 4 Gutenberg: couleurs systeme Elementor"
+
+#: inc/eccp-multiple-settings.php:1518
+msgid "• Color 5 to 12 Gutenberg: Elemntor custom colors"
+msgstr "• Couleur 5 à 12 Gutenberg:  couleurs personnalisées Elementor"
+
+#: inc/eccp-multiple-settings.php:1520
+msgid "Once the Elementor color palette is established, deactivate synchronization."
+msgstr "Une fois la palette de couleurs Elementor établie désactiver la synchronisation."
+
+#: inc/eccp-multiple-settings.php:1522
+msgid "If you want more than 12 colors, turn off sync and enter other custom colors from Elementor."
+msgstr "Si vous voulez plus de 12 couleurs, désactiver la synchronisation et entrez les autres couleurs personnalisées a partir d'Elementor."
+
+#: inc/eccp-multiple-settings.php:1525
+msgid "Warning! synchronization erases any color palette configured previously in Elementor."
+msgstr "Attention! la synchronisation efface toute palette de couleurs configuré précédemment dans Elementor."
+
+#: inc/eccp-multiple-settings.php:1527
+msgid "The synchronization is therefore to be done following an installation of WordPress & theme & Elementor."
+msgstr "La synchronisation est donc à faire suite à une installation de WordPress & theme & Elementor."
+
+#: inc/eccp-multiple-settings.php:1590
+msgid "You can choose the synchronization:"
+msgstr "Vous pouvez choisir la synchronisation:"
+
+#: inc/eccp-multiple-settings.php:1592
+msgid "• synchronize the DIVI color palette with the Gutenberg color palette(first eight colors)"
+msgstr "• synchroniser la palette de couleurs DIVI avec la palette de couleurs Gutenberg(huit premières couleurs)"
+
+#: inc/eccp-multiple-settings.php:1594
+msgid "• synchronize the Gutenberg color palette(first eight colors) with the DIVI color palette"
+msgstr "• synchroniser la palette de couleurs Gutenberg(huit premières couleurs) avec la palette de couleurs DIVI"
+
+#: inc/eccp-multiple-settings.php:1596
+msgid "Once the color palette is established,deactivate synchronization."
+msgstr "Une fois la palette de couleurs établie désactiver la synchronisation."
+
+#: inc/eccp-multiple-settings.php:2874
+msgid "SUMMARY"
+msgstr "SOMMAIRE"
+
+#: inc/eccp-multiple-settings.php:2890
+msgid "• For screens that list Posts, Pages, Custom Post Type, added columns to display a thumbnail of the featured image and post ID."
+msgstr "• Pour les écrans qui répertorient les Articles, Pages, Custom Post Type, ajout de colonnes pour afficher une vignette de l'image en avant et l'ID de publication."
+
+#: inc/eccp-multiple-settings.php:2892
+msgid "• Added a setting to the Quick Edit screen that allows Delete/Add Featured Image."
+msgstr "• Ajout d'un réglage à l'écran d'édition rapide qui permet de supprimer/ajouter une image en avant."
+
+#: inc/eccp-multiple-settings.php:2894
+msgid "• Enabling a featured image column is common for posts & custom post types."
+msgstr "• L'activation d'une colonne image en avant est commune pour les articles & type de publication personnalisé."
+
+#: inc/eccp-multiple-settings.php:3991 inc/eccp-multiple-settings.php:4001
+msgid "Back to top button"
+msgstr "Bouton retour en haut"
+
+#: inc/eccp-multiple-settings.php:3995 inc/eccp-multiple-settings.php:9220
+msgid "Author Info Box"
+msgstr "Boite d'informations sur l'auteur"
+
+#: inc/eccp-multiple-settings.php:4410 inc/eccp-multiple-settings.php:10205
+msgid "Comment form"
+msgstr "Formulaire de commentaire"
+
+#: inc/eccp-multiple-settings.php:3349
+msgid "Gutenberg to Divi"
+msgstr "Gutenberg vers Divi"
+
+#: inc/eccp-multiple-settings.php:6305
+msgid "Divi to Gutenberg"
+msgstr "Divi vers Gutenberg"
+
+#: inc/eccp-multiple-settings.php:6361
+msgid "Post Screen: Featured Image Column & ID & Filter by Author"
+msgstr "Écran de publication : colonne image en avant & ID & Filtre par auteur"
+
+#: inc/eccp-multiple-settings.php:6368
+msgid "Adding columns to the library:"
+msgstr "Ajout des colonnes a la médiathèque:"
+
+#: inc/eccp-multiple-settings.php:7316
+msgid "• Post ID"
+msgstr "• ID de publication"
+
+#: inc/eccp-multiple-settings.php:6372
+msgid "• Dimensions: Width * Height"
+msgstr "• Dimensions: largeur * Hauteur"
+
+#: inc/eccp-multiple-settings.php:6374
+msgid "• File size in KB"
+msgstr "• Taille du fichier en Ko"
+
+#: inc/eccp-multiple-settings.php:3288 inc/eccp-multiple-settings.php:6364
+msgid "Library"
+msgstr "Médiathèque"
+
+#: inc/eccp-multiple-settings.php:3290 inc/eccp-multiple-settings.php:6897
+msgid "Added ID,Dimensions,File Size columns"
+msgstr "Ajout de colonnes ID,dimensions,Taille du fichier"
+
+#: inc/eccp-multiple-settings.php:3294 inc/eccp-multiple-settings.php:6958
+msgid "Automatically set image Title,Alt-Text & Caption upon upload"
+msgstr "Définir automatiquement le titre,le texte alternatif et la légende de l'image lors du téléchargement"
+
+#: inc/eccp-multiple-settings.php:3808 inc/eccp-multiple-settings.php:8182
+msgid "Add column last login & user registration date"
+msgstr "Ajouter colonne dernière connexion & date enregistrement utilisateurs"
+
+#: inc/eccp-multiple-settings.php:3810 inc/eccp-multiple-settings.php:8226
+msgid "Allow contributors to upload media to the media library"
+msgstr "Autoriser les contributeurs a télécharger des médias dans la médiathèque"
+
+#: inc/eccp-multiple-settings.php:6963
+msgid "• Sanitize the title: We remove hyphens,underscores and extra spaces from the image title."
+msgstr "• On supprime les traits d'union,les traits de soulignement et les espaces supplémentaires du titre de l'image."
+
+#: inc/eccp-multiple-settings.php:6965
+msgid "• The title thus sanitized will be used to define the alternative text and the caption of the image."
+msgstr "• Le titre ainsi assaini servira a définir le texte alternatif et la légende de l'image."
+
+#: inc/eccp-multiple-settings.php:3180
+msgid "Login Page"
+msgstr "Page De Connexion"
+
+#: inc/eccp-multiple-settings.php:3788 inc/eccp-multiple-settings.php:8582
+msgid "Prevent WordPress notification emails from being considered spam"
+msgstr "Eviter que les e-mails de notification WordPress soit considéré comme des spams"
+
+#: inc/eccp-multiple-settings.php:8599
+msgid "Once this option is enabled, all outgoing emails from WordPress will use the «Return-Path» corresponding to the «From» address, which can help improve email deliverability and prevent them from being considered spam."
+msgstr "Une fois cette option activé,tous les e-mails sortants de WordPress utiliseront «l'adresse de retour» correspondant à l'adresse «De», ce qui peut aider à améliorer la délivrabilité des e-mails et à éviter qu'ils soient considérés comme des spams."
+
+#: inc/eccp-multiple-settings.php:3192 inc/eccp-multiple-settings.php:7162
+msgid "Other WordPress admin customization"
+msgstr "Autres personnalisation admin WordPress"
+
+#: inc/eccp-multiple-settings.php:7167
+msgid "The default sitemap feature allows WordPress to automatically publish XML sitemaps for your website."
+msgstr "La fonctionnalité de sitemap par défaut permet à WordPress de publier automatiquement des plans de site XML pour votre site Web."
+
+#: inc/eccp-multiple-settings.php:7169
+msgid "You may have installed a WordPress SEO plugin, such as Yoast SEO."
+msgstr "Vous avez peut être installé une extension WordPress SEO, telle que  par exemple Yoast SEO."
+
+#: inc/eccp-multiple-settings.php:7171
+msgid "You then generate a duplicate sitemap for the same website which can confuse search engines and lower your SEO ranking."
+msgstr "Vous générer alors un sitemap en double pour le même site WEB ce qui peut semer la confusion dans les moteurs de recherche et faire chuter votre classement SEO."
+
+#: inc/eccp-multiple-settings.php:2728 inc/eccp-multiple-settings.php:3194
+#: inc/eccp-multiple-settings.php:7163
+msgid "Disable default WordPress sitemap"
+msgstr "Désactiver le sitemap  de WordPress par défaut"
+
+#: inc/eccp-multiple-settings.php:3231 inc/eccp-multiple-settings.php:7234
+msgid "Activate a menu item for login/logout to the WordPress admin"
+msgstr "Activer un item de menu pour une connexion/déconnexion à l'admin WordPress"
+
+#: inc/eccp-multiple-settings.php:2745
+msgid "Enable a Login/Logout menu item for a local site"
+msgstr "Activer pour un site local un item de menu Connexion/Déconnexion"
+
+#: inc/eccp-multiple-settings.php:2758
+msgid "Activate a Login/Logout menu item for an online site"
+msgstr "Activer pour un site en ligne un item de menu Connexion/Déconnexion"
+
+#: inc/eccp-multiple-settings.php:2770
+msgid "Fill in the slug of the WordPress admin login URL"
+msgstr "Renseigner le slug de l'URL de connexion à l'admin de WordPress"
+
+#: inc/eccp-multiple-settings.php:3095
+msgid "enable back to top button"
+msgstr "activer bouton retour en haut"
+
+#: inc/eccp-multiple-settings.php:3113
+msgid "margin X(0 to 100px)"
+msgstr "marge X(0 à 100px)"
+
+#: inc/eccp-multiple-settings.php:3122
+msgid "margin Y(0 to 100px)"
+msgstr "marge Y(0 à 100px)"
+
+#: inc/eccp-multiple-settings.php:3135
+msgid "button opacity(0 to 100%)"
+msgstr "opacité bouton(0 à 100%)"
+
+#: inc/eccp-multiple-settings.php:3148
+msgid "button opacity on hover(0 to 100%)"
+msgstr "opacité du bouton au survol(0 à 100%)"
+
+#: inc/eccp-multiple-settings.php:3157
+msgid "button color"
+msgstr "couleur du bouton"
+
+#: inc/eccp-multiple-settings.php:3420
+msgid "button border radius(0 to 50px)"
+msgstr "rayon de bordure bouton(0 à 50px)"
+
+#: inc/eccp-multiple-settings.php:3432
+msgid "enable author info box"
+msgstr "activer boite d'informations sur l'auteur"
+
+#: inc/eccp-multiple-settings.php:3449
+msgid "avatar border radius(0 to 50px)"
+msgstr "rayon de bordure avatar(0 à 50px)"
+
+#: inc/eccp-multiple-settings.php:7239
+msgid "• For a local or online site, add to your navigation menu a login/logout link to the WordPress admin in the form of a Dashicon Users icon."
+msgstr "• Pour un site en local ou en ligne, ajouter a votre menu de navigation un lien de connexion/déconnexion a l'admin WordPress sous forme d'une icône Dashicon Users."
+
+#: inc/eccp-multiple-settings.php:7241
+msgid "• For an online site, enter the slug of the connection url, by default wp-admin or admin."
+msgstr "• Pour un site en ligne renseigner le slug de l'url de connexion, par défaut wp-admin ou admin."
+
+#: inc/eccp-multiple-settings.php:9254
+msgid "To display the author info box you must:"
+msgstr "Pour afficher la boite d'info auteur vous devez:"
+
+#: inc/eccp-multiple-settings.php:9256
+msgid "• Activate the author information box option"
+msgstr "• Activer l'option boite d'informations sur l'auteur"
+
+#: inc/eccp-multiple-settings.php:9259
+msgid "• Fill in the biographical description for the account profile"
+msgstr "• Renseigner la description biographique pour le profil du compte"
+
+#: inc/eccp-multiple-settings.php:10272
+msgid "You can use these HTML tags and attributes:"
+msgstr "Vous pouvez utiliser ces balises et attributs HTML:"
+
+#: inc/eccp-multiple-settings.php:9400
+msgid "ECCP plugin uses Fancybox popup to lightbox WordPress images & galleries."
+msgstr "L'extension ECCP utilise la fenêtre contextuelle Fancybox pour apporter une lightbox aux images & galleries WordPress."
+
+#: inc/eccp-multiple-settings.php:9402
+msgid "• Be sure to link the image directly to the media and not to the attachment page."
+msgstr "• Assurez-vous de  liez l'image  directement au média et non à la page de pièce jointe."
+
+#: inc/eccp-multiple-settings.php:9404
+msgid "• For galleries, the option links to = media files must be activated."
+msgstr "• Pour les galeries, l'option liens vers = fichiers média doit être activée."
+
+#: inc/eccp-multiple-settings.php:9406
+msgid "For the image block in the sidebar of the ECCP Lightbox Panel editor you have an option to disable the Lightbox."
+msgstr "Pour le bloc image dans la barre latérale de l'editeur Panneau ECCP Lightbox vous avez une option pour désactiver la Visionneuse."
+
+#: inc/eccp-multiple-settings.php:9408
+msgid "Useful for example in the case where you have for the image an external link to your WEB site."
+msgstr "Utile par exemple dans le cas ou vous avez pour l'image un lien externe a votre site WEB."
+
+#: inc/eccp-multiple-settings.php:9410
+msgid "Theme OceanWP:"
+msgstr "Theme OceanWP:"
+
+#: inc/eccp-multiple-settings.php:9412
+msgid "please disable theme default lightbox:"
+msgstr "veuillez désactiver la lightbox par défaut du thème:"
+
+#: inc/eccp-multiple-settings.php:9414
+msgid "Appearance/customize/General Options/performance/LightBox"
+msgstr "Apparence/personnaliser/Options Générales/performance/Visionneuse"
+
+#: inc/eccp-multiple-settings.php:6430
+msgid "Library screen: ID & Dimensions & File Size columns"
+msgstr "Écran de la Médiathèque : colonnes ID & Dimensions & Taille du fichier"
+
+#: inc/eccp-multiple-settings.php:6456
+msgid "Enable a column on the All Accounts screen to display the last login date and/or the check-in date."
+msgstr "Activer une colonne sur l'écran tous les comptes pour afficher la date de dernière connexion et/ou la date d'enregistrement."
+
+#: inc/eccp-multiple-settings.php:2862 inc/eccp-multiple-settings.php:6364
+msgid "Users"
+msgstr "Comptes"
+
+#: inc/eccp-multiple-settings.php:2882 inc/eccp-multiple-settings.php:6471
+msgid "Login Form"
+msgstr "Formulaire De Connexion"
+
+#: inc/eccp-multiple-settings.php:2907 inc/eccp-multiple-settings.php:6517
+msgid "Show a custom error message to your users"
+msgstr "Afficher un message d'erreur personnalisé à vos utilisateurs"
+
+#: inc/eccp-multiple-settings.php:6519
+msgid "You can customize the texts below in the language of your choice.Leave the field blank to not display a message."
+msgstr "Vous pouvez personnaliser les textes ci-dessous dans la langue de votre choix. Laissez le champ vide pour ne pas afficher de message personnalisé."
+
+#: inc/eccp-multiple-settings.php:2939 inc/eccp-multiple-settings.php:6575
+msgid "Custom Logo"
+msgstr "Logo Personnalisé"
+
+#: inc/eccp-multiple-settings.php:6579
+msgid "• Replace the Wordpress logo with your custom logo."
+msgstr "• Remplacer le logo WordPress par votre logo personnalisé."
+
+#: inc/eccp-multiple-settings.php:6581
+msgid "• The connection page logo link is replaced by default by the site home page link."
+msgstr "• Le lien du logo de la page de connexion est remplacé par défaut avec celui de page d'accueil du site."
+
+#: inc/eccp-multiple-settings.php:2982 inc/eccp-multiple-settings.php:8760
+msgid "Custom Login Form"
+msgstr "Personnaliser Le Formulaire De Connexion"
+
+#: inc/eccp-multiple-settings.php:3890 inc/eccp-multiple-settings.php:8760
+msgid "Custom background image"
+msgstr "Image de fond personnalisé"
+
+#: inc/eccp-multiple-settings.php:3514 inc/eccp-multiple-settings.php:8134
+msgid "Default WordPress EMAIL"
+msgstr "EMAIL WordPress par défaut"
+
+#: inc/eccp-multiple-settings.php:3516 inc/eccp-multiple-settings.php:8136
+msgid "Changing the Sender Name and Email Address WordPress Default"
+msgstr "Modification du nom de l'expéditeur et de l'adresse e-mail WordPress Par défaut"
+
+#: inc/eccp-multiple-settings.php:9190
+msgid "Redirect administrators after connection to the dashboard and other users to the home page."
+msgstr "Rediriger aprés connexion les administrateurs vers le tableau de bord et les autres utilisateurs vers la page d'accueil."
+
+#: inc/eccp-multiple-settings.php:9215
+msgid "Typically WordPress sends all emails using \"WordPress\" as sender name and \"wordpress@domainname.fr\" as sender address which is totally fine for admin notifications but not for any kind of emails to you users."
+msgstr "Généralement, WordPress envoi tous les e-mails en utilisant \"WordPress\" comme nom d'expéditeur et \"wordpress@nomdedomaine.fr\" comme adresse d'expéditeur, ce qui convient parfaitement aux notifications d'administration, mais pas à tous les types d'e-mails destinés à vos utilisateurs."
+
+#: inc/eccp-multiple-settings.php:8184
+msgid "In addition, changing the default Wordpress email address will prevent spam filters from blocking your WordPress emails considering them as unwanted."
+msgstr "Par ailleurs modifier l'adresse e-mail Wordpress par défaut évitera que des filtres anti-spam bloquent vos e-mails WordPress les considérant comme indésirables."
+
+#: inc/eccp-multiple-settings.php:887
+msgid "You can customize a palette of twelve colors."
+msgstr "Vous pouvez personnaliser une palette de douze couleurs."
+
+#: inc/eccp-multiple-settings.php:889
+msgid "The color is defined in hexadecimal,the opacity allows to apply an RGBA color."
+msgstr "La couleur est définie en hexadécimal,l'opacité permet d'appliquer une couleur RGBA."
+
+#: inc/eccp-multiple-settings.php:891
+msgid "Choose a simple name for the color, max 25 characters alphanumeric."
+msgstr "Choisissez un nom simple pour la couleur, max 25 caractères alphanumérique."
+
+#: inc/eccp-multiple-settings.php:893
+msgid "The slug is automatically created from the name of the color and allows the style to be applied in the front end."
+msgstr "Le slug est automatiquement créé à partir du nom de la couleur et permet d'appliquer le style sur le front-end."
+
+#: inc/eccp-multiple-settings.php:895
+msgid "two options allow:"
+msgstr "deux options permettent :"
+
+#: inc/eccp-multiple-settings.php:897
+msgid "• Disabling custom colors"
+msgstr "• Désactivation des couleurs personnalisées(Custom color)"
+
+#: inc/eccp-multiple-settings.php:899
+msgid "• Disabling custom gradients"
+msgstr "• Désactivation des dégradés personnalisés(Gradient)"
+
+#: inc/eccp-multiple-settings.php:914
+msgid "Customize the text sizes proposed in the paragraph"
+msgstr "Personnaliser les tailles de texte proposées dans le paragraphe"
+
+#: inc/eccp-multiple-settings.php:916
+msgid "When you add a paragraph, an option allows you to choose the size of the text: small,regular,large,huge."
+msgstr "Lorsque vous ajoutez un paragraphe, une option vous permet de choisir la taille du texte : petite, normale, large, énorme."
+
+#: inc/eccp-multiple-settings.php:918
+msgid "The style is then applied to the paragraph, both in the editor and on the Front End."
+msgstr "Le style est ensuite appliqué au paragraphe, à la fois dans l'éditeur et sur le Front End."
+
+#: inc/eccp-multiple-settings.php:920
+msgid "In order to better control this option, you will be able to choose the corresponding sizes."
+msgstr "Afin de mieux maîtriser cette option,vous pouvez choisir les tailles correspondantes."
+
+#: inc/eccp-multiple-settings.php:922
+msgid "Added option:"
+msgstr "Ajout de l'option :"
+
+#: inc/eccp-multiple-settings.php:924
+msgid "• Disable custom font size"
+msgstr "• Désactiver la taille de police personnalisée"
+
+#: eccp-admin-menu.php:88 inc/eccp-multiple-settings.php:932
+msgid "Customize the text sizes"
+msgstr "Personnaliser les tailles de texte"
+
+#: inc/eccp-multiple-settings.php:4728 inc/eccp-multiple-settings.php:3390
+msgid "Default text size for the Gutenberg editor"
+msgstr "Taille texte par défaut pour l'editeur Gutenberg"
+
+#: inc/eccp-multiple-settings.php:938
+msgid "Customize Gutenberg editor"
+msgstr "Personnaliser l'éditeur Gutenberg"
+
+#: inc/eccp-admin-menu.php:95 inc/eccp-multiple-settings.php:940
+#: inc/eccp-multiple-settings.php:1888
+msgid "align wide option for the block editor:"
+msgstr "option d'alignement large pour l'éditeur de blocs:"
+
+#: inc/eccp-multiple-settings.php:942
+msgid "Some blocks such as the image block have the possibility to define a wide or full alignment."
+msgstr "Certains blocs comme le bloc image ont la possibilité de définir un alignement large ou pleine largeur."
+
+#: inc/eccp-multiple-settings.php:944
+msgid "Not all themes take these styles into account."
+msgstr "Tous les thèmes ne prennent pas en compte ces styles."
+
+#: inc/eccp-multiple-settings.php:995 inc/eccp-multiple-settings.php:998
+#: inc/eccp-multiple-settings.php:1018 inc/eccp-multiple-settings.php:1021
+#: inc/eccp-multiple-settings.php:2444 inc/eccp-multiple-settings.php:2447
+msgid "no"
+msgstr "non"
+
+#: inc/eccp-multiple-settings.php:1009 inc/eccp-multiple-settings.php:1032
+#: inc/eccp-multiple-settings.php:2452
+msgid "yes"
+msgstr "oui"
+
+#: inc/eccp-multiple-settings.php:1070 inc/eccp-multiple-settings.php:2147
+#: inc/eccp-multiple-settings.php:2372 inc/eccp-multiple-settings.php:2313
+#: inc/eccp-multiple-settings.php:2337
+msgid "Choose an option"
+msgstr "Sélectionnez une option"
+
+#: inc/eccp-multiple-settings.php:1082
+msgid "According to your choice for the number of color."
+msgstr "Selon votre choix pour le nombre de couleur."
+
+#: inc/eccp-multiple-settings.php:1084
+msgid "Choice of 7 colors: enter colors 1 to 7 below"
+msgstr "Choix de 7 couleurs : entrez les couleurs 1 à 7 ci-dessous"
+
+#: inc/eccp-multiple-settings.php:1086
+msgid "Choice of 8 colors: enter colors 1 to 8 below"
+msgstr "Choix de 8 couleurs : entrez les couleurs 1 à 8 ci-dessous"
+
+#: inc/eccp-multiple-settings.php:1088
+msgid "etc ..."
+msgstr "etc ..."
+
+#: inc/eccp-admin-menu.php:81 inc/eccp-multiple-settings.php:1733
+msgid "Disabling custom colors & gradients"
+msgstr "Désactiver les couleurs et dégradés personnalisés"
+
+# Traduction eccp-custom-blocks.js
+# #################################################################
+# Traduction Components/IconPicker.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Selected Icon: "
+msgstr "Icône Sélectionnée: "
+
+# Traduction Components/postmeta-remove-blocks.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Content before/after publication"
+msgstr "Contenu avant/aprés publication"
+
+#: js/eccp-custom-blocks.js:8
+msgid "The ECCP extension allows to automatically insert reusable blocks before and/or after this publication content."
+msgstr "L'extension ECCP permet d'insérer automatiquement des blocs réutilisables avant et/ou après ce contenu de publication."
+
+#: js/eccp-custom-blocks.js:8
+msgid "You can disable these blocks for this post using the following options."
+msgstr "Vous pouvez désactiver ces blocs pour cette publication en utilisant les options suivantes."
+
+#: js/eccp-custom-blocks.js:8 editor-custom-color-palette.php:6263
+msgid "Remove blocks before content"
+msgstr "Supprimer les blocs avant le contenu"
+
+#: js/eccp-custom-blocks.js:8 editor-custom-color-palette.php:6264
+msgid "Remove blocks after content"
+msgstr "Supprimer les blocs aprés le contenu"
+
+# Traduction Format/colorsHighlight.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Yellow"
+msgstr "Jaune"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Green"
+msgstr "Vert"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Blue"
+msgstr "Bleu"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Brown"
+msgstr "Marron"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Red"
+msgstr "Rouge"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Pink"
+msgstr "Rose"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Highlight Colors"
+msgstr "Surlignage Couleurs"
+
+# Traduction Format/colorsOutlineDashed.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Dotted Outline Colors"
+msgstr "Contour Pointillé Couleurs"
+
+# Traduction Format/colorsOutlineDouble.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Dual Colors Outline"
+msgstr "Contour Double Couleurs"
+
+# Traduction Format/colorsOutlineSolid.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Outline Colors"
+msgstr "Contour Couleurs"
+
+# Traduction Format/colorsUnderline.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Underline Colors"
+msgstr "Souligner Couleurs"
+
+# Traduction Format/dashiconButtonBlock.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Select button text before applying an icon"
+msgstr "Sélectionner le texte du bouton avant d'appliquer une icône"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Delete Icon"
+msgstr "Supprimer Icône"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Position the icon on the right?"
+msgstr "Positionner l'icône a droite?"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Outline icon only for paragraph block?"
+msgstr "Contour icône uniquement pour bloc paragraphe?"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Enable"
+msgstr "Activer"
+
+# Traduction Format/externalLinks.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "External Links"
+msgstr "Liens externes"
+
+# Traduction Format/removeFormat.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Clear Formatting"
+msgstr "Supprimer Formats"
+
+# Traduction Format/tooltip.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Add Tooltip"
+msgstr "Ajouter Info-Bulle"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Tooltip content"
+msgstr "Contenu Info-Bulle"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Enter tooltip text"
+msgstr "Entrez le texte de l'info bulle"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Cancel"
+msgstr "Annuler"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Apply"
+msgstr "Appliquer"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Delete Tooltip"
+msgstr "Supprimer Info-Bulle"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Tooltip"
+msgstr "Info-Bulle"
+
+# Traduction Format/underline.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Underline"
+msgstr "Souligner"
+
+# Traduction Sidebar/sidebarControls.js
+# #################################################################
+# ######### BOX SHADOW ############
+#: js/eccp-custom-blocks.js:8
+msgid "Box Shadow Enable"
+msgstr "Activer l'effet ombre de boite"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Box Shadow Color"
+msgstr "Couleur de l'ombre"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Horizontal Length"
+msgstr "Longueur horizontale"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Vertical Length"
+msgstr "Longueur Verticale"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Blur Radius"
+msgstr "Rayon De Flou"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Broadcast Radius"
+msgstr "Rayon De Diffusion"
+
+# ######### ECCP LIGHTBOX ############
+#: js/eccp-custom-blocks.js:8
+msgid "Disable Lightbox"
+msgstr "Désactiver la visionneuse"
+
+# ######### ECCP SLIDER ############
+#: js/eccp-custom-blocks.js:8
+msgid "Slider Enable"
+msgstr "Activer Slider"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Slider Width"
+msgstr "Largeur Slider"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Width in px"
+msgstr "Largeur en px"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Center Align"
+msgstr "Aligner au centre"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Dots Navigation"
+msgstr "Navigation Par Points"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Arrows Navigation"
+msgstr "Navigation Par Flêches"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Scrollbar Navigation"
+msgstr "Navigation Par Barre De Défilement"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Autoplay delay per slide"
+msgstr "Délai de lecture automatique par slide"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Delay in milliseconds"
+msgstr "délai en millisecondes"
+
+# ######### ECCP BEFORE/AFTER ############
+
+#: js/eccp-custom-blocks.js:8
+msgid "ECCP Before/After"
+msgstr "ECCP Avant/Aprés"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Before/After Enable"
+msgstr "Activer Avant/Aprés"
+
+#: js/eccp-custom-blocks.js:8
+msgid "A before and after photo allows you to show a side by side comparison of two images with minor differences."
+msgstr "Une photo avant et après vous permet de comparer côte à côte deux images présentant des différences."
+
+#: js/eccp-custom-blocks.js:8
+msgid "color background slider images"
+msgstr "couleur arrière plan curseur images"
+
+#: js/eccp-custom-blocks.js:8
+msgid "color border slider images"
+msgstr "couleur bordure curseur images"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Border Color"
+msgstr "Couleur Bordure"
+
+#: js/eccp-custom-blocks.js:8
+msgid "color symbols <> slider images"
+msgstr "couleur symboles <> du curseur d'images"
+
+#: js/eccp-custom-blocks.js:8
+msgid "color symbols"
+msgstr "couleur symboles"
+
+# ######### TEXT SHADOW ############
+#: js/eccp-custom-blocks.js:8
+msgid "Text Shadow Enable"
+msgstr "Activer l'effet ombre de texte"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Text Shadow Color"
+msgstr "Couleur de l'ombre "
+
+# ######### BULLETS ############
+#: js/eccp-custom-blocks.js:8
+msgid "ECCP Bullets Color"
+msgstr "ECCP Couleur Des Puces"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Bullets color"
+msgstr "Couleur des puces"
+
+# ######### Tableau ############
+#: js/eccp-custom-blocks.js:8
+msgid "ECCP Table Header"
+msgstr "ECCP En-Tête Tableau"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Header text color"
+msgstr "Couleur texte en-tête"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Header background color"
+msgstr "Couleur arrière plan en-tête"
+
+#: js/eccp-custom-blocks.js:8
+msgid "ECCP Table Body"
+msgstr "ECCP Corps Du Tableau"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Even lines background color"
+msgstr "Couleur arrière plan lignes paires"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Even line text color"
+msgstr "Couleur texte lignes paires"
+
+# ######### Bouton Style Plein ############
+#: js/eccp-custom-blocks.js:8
+msgid "ECCP Hover Fill Style"
+msgstr "ECCP Style Plein Au Survol"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Border"
+msgstr "Bordure"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Text Color"
+msgstr "Texte"
+
+# ######### Bouton Style Contour ############
+#: js/eccp-custom-blocks.js:8
+msgid "ECCP Hover Outline Style"
+msgstr "ECCP Style Contour Au Survol"
+
+# ######### Panneau Style ############
+#: js/eccp-custom-blocks.js:8
+msgid "Dashicons Arrow icon to indicate whether details block content is shown or hidden."
+msgstr "Icône Dashicons Arrow pour indiquer si le contenu du bloc détails est affiché ou masqué."
+
+#: js/eccp-custom-blocks.js:8
+msgid "Change block width"
+msgstr "Modifier la largeur du bloc"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Block Size"
+msgstr "(Largeur Du Bloc)"
+
+#: js/eccp-custom-blocks.js:8
+msgid "RESPONSIVE TEXT ALIGNMENT"
+msgstr "ALIGNEMENT DU TEXTE"
+
+#: js/eccp-custom-blocks.js:8
+msgid "(only front end for Mobile Devices)"
+msgstr "(uniquement pour les appareils mobiles )"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Assign different alignment for mobile devices additionally of the option you already have for display on PC in the toolbar of the block.(Alignment settings only for Front End)"
+msgstr "Attribuez un alignement différent pour les appareils mobiles en plus de l'option que vous avez déjà pour l'affichage sur PC dans la barre d'outils du bloc.(Paramètres d'alignement uniquement pour Front End)"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Border Radius(Enable border radius)"
+msgstr "Rayon De Bordure(Activer un rayon de bordure)"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Custom Border Radius"
+msgstr "Rayon de bordure personnalisé"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Border Roundness value in pixels"
+msgstr "Valeur Arrondi de la Bordure en pixels"
+
+#: js/eccp-custom-blocks.js:8
+msgid "gallery justified style"
+msgstr "style justifié pour la gallerie"
+
+#: js/eccp-custom-blocks.js:8
+msgid "one-column layout mobile"
+msgstr "disposition sur une colonne en mobile"
+
+#: js/eccp-custom-blocks.js:8
+msgid "border radius for gallery images"
+msgstr "rayon de bordure pour images de la gallerie"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Add zoom effect on hover"
+msgstr "Ajouter un effet de zoom au survol"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Zoom value on hover in %"
+msgstr "Valeur du zoom au survol en %"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Min Columns Spacing"
+msgstr "Activer un espacement mini des colonnes"
+
+#: js/eccp-custom-blocks.js:8
+msgid "BULLETS SIZE"
+msgstr "TAILLE DES PUCES"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Set list bullet size in pixels"
+msgstr "Définissez la taille des puces de la liste en pixels"
+
+#: js/eccp-custom-blocks.js:8
+msgid "HEADING ICON"
+msgstr "ICÔNE DU TITRE"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Set title indicator icon"
+msgstr "Définissez l'icône indicateur du titre"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Mobile Cover Height In Pixels"
+msgstr "Hauteur de la bannière sur mobile en pixels"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Enable width setting for Card style"
+msgstr "Activer réglage largeur pour le style Card"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Card Style Image Width"
+msgstr "Largeur de l'image avec le style Card"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Space Block Responsive: mobile and tablet"
+msgstr "Mode Responsive du bloc Espacement sur Mobile, Tablette"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Block height Spacing On Tablet(in pixels)"
+msgstr "Hauteur du bloc espacement sur Tablette en pixel"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Block height Spacing On Mobile(in pixel)"
+msgstr "Hauteur du bloc espacement sur Mobile en pixel"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Turn Profile Links Into Sharing Link"
+msgstr "Transformer Liens De Profil En Lien De Partage"
+
+# ######### Panneau Shape Divider ############
+#: js/eccp-custom-blocks.js:8
+msgid "ECCP Shape Divider"
+msgstr "ECCP Formes de séparation"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Shape Divider Enable"
+msgstr "Activer formes de séparation"
+
+#: js/eccp-custom-blocks.js:8
+msgid "TOP"
+msgstr "HAUT"
+
+#: js/eccp-custom-blocks.js:8
+msgid "BOTTOM"
+msgstr "BAS"
+
+#: js/eccp-custom-blocks.js:8
+msgid "The color of the shape must be that of the background of the publication except for the Tilt Opacity and Waves Opacity styles."
+msgstr "La couleur de la forme doit être celle de l'arrière plan de la publication excepté pour les styles Incliné Opacité et Vagues Opacité."
+
+#: js/eccp-custom-blocks.js:8
+msgid "Select your shape style"
+msgstr "Sélectionner votre style de forme"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Nothing"
+msgstr "Néant"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Split"
+msgstr "Diviseur"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Arrow"
+msgstr "Flêche"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Tilt"
+msgstr "Incliné"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Tilt Opacity"
+msgstr "Incliné Opacité"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Curve"
+msgstr "Incurvé"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Curve Asymmetrical"
+msgstr "Incurvé Assymétrique"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Book"
+msgstr "Livre"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Triangle"
+msgstr "Triangle"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Triangle Asymmetrical"
+msgstr "Triangle Assymétrique"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Waves"
+msgstr "Vagues"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Waves Opacity"
+msgstr "Vagues Opacité"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Fan"
+msgstr "Ventilateur"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Background color of the shape"
+msgstr "Couleur fond de la forme"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Background Color"
+msgstr "Couleur de fond"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Height"
+msgstr "Hauteur"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Height(Mobile)"
+msgstr "Hauteur(Mobile)"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Width"
+msgstr "Largeur"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Flip Horizontally"
+msgstr "Retournement Horizontal"
+
+# Traduction Sidebar/sidebarControlsCountDown.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "ECCP Countdown Timer"
+msgstr "ECCP Compte à rebours"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Enable a countdown timer for the Countdown Timer block variant"
+msgstr "Activer un compte à rebours pour la variante du bloc Groupe: Countdown Timer"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Select the event date for the countdown "
+msgstr "Sélectionner la date de l'évènement pour le compte à rebours"
+
+# Traduction Sidebar/sidebarControlsLink.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Activate a link for this block"
+msgstr "Activer un lien pour ce bloc"
+
+#: js/eccp-custom-blocks.js:8
+msgid "parameters of the link assigned to the block"
+msgstr "paramètres du lien assigné au bloc"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Link(URL)"
+msgstr "Lien(URL)"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Open link in"
+msgstr "Ouverture du lien dans"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Current tab"
+msgstr "Onglet courant"
+
+#: js/eccp-custom-blocks.js:8
+msgid "New tab"
+msgstr "Nouvel Onglet"
+
+# Traduction Sidebar/sidebarControlsResponsive.js
+# #################################################################
+#: js/eccp-custom-blocks.js:8
+msgid "Show/Hide a block on mobile, tablet or computer (Display settings only for Front End)"
+msgstr "Afficher/Masquer un bloc sur mobile, tablette ou ordinateur (Paramètres d'affichage uniquement pour Front End)"
+
+#: js/eccp-custom-blocks.js:8
+msgid "RESPONSIVE VISIBILITY (Only Front End)"
+msgstr "VISIBILITÉ EN FRONT END"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Hide On PC"
+msgstr "Masquer Sur PC"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Visible On PC"
+msgstr "Visible Sur PC"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Hide On Tablet"
+msgstr "Masquer Sur Tablette"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Visible On Tablet"
+msgstr "Visible Sur Tablette"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Hide On Mobile"
+msgstr "Masquer Sur Mobile"
+
+#: js/eccp-custom-blocks.js:8
+msgid "Visible On Mobile"
+msgstr "Visible Sur Mobile"
