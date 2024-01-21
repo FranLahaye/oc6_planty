@@ -1,5 +1,6 @@
 /* Import of font Syne from Google Fonts and setup on all pages */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
 html * {
    font-family: 'Syne', sans-serif !important; 
@@ -9,6 +10,10 @@ body {
     max-width: 1440px;
 	width:100%;
 	margin:auto;
+}
+
+h1, h2, h3, h4, h5, h6, .faux-heading {
+    letter-spacing: normal;
 }
 
 /* HEADER */
@@ -60,7 +65,7 @@ ul.primary-menu a:hover {
 	color: black !important;
 }
 
-/* last li element of menu ("commander" specific selector) */
+/* last li element of menu ("commander") */
 .primary-menu > li:last-child {
 	background-color: #DC9F96;
 	padding: 0 1px 0 61px;
@@ -76,17 +81,167 @@ ul.primary-menu a:hover {
 	font-weight: 700;
 }
 
-/* PAGES */
-/* Gutenberg pages title not displayed */
+/* PAGES global */
+/* wordpress native pages title not displayed */
 .entry-header {
 	display:none;
 }
 
-/* pages gutenberg blocks */
+/* blocks defined by theme */
 .post-inner {
 	padding: 0;
 }
 
+/*** PAGE "commander" managed by Gutenberg ***/
+/* classes defined manually into Gutenberg blocks */
+
+.page_commander_groupe {
+    max-width: 860px !important;
+	width:100%;
+	margin:auto;
+}
+
+.command_form {
+	margin-top: 15.64px;
+}
+
+/* separator block design change */
+.entry-content hr::before, .entry-content hr::after {
+	display: none;
+}
+
+.command_separator_line, .entry-content hr {
+	color: white !important;
+	background-color:white !important;
+}
+
+/* container of title into banner block */
+.wp-block-cover__inner-container {
+	width: 90% !important;
+}
+
+/* classes created automatically by Gutenberg */
+
+/* classes defined manually into Contact 7 plugin */
+/* command form */
+.command_quantities {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.command_quantity {
+	font-family: 'inter', sans-serif !important; 
+	margin: 0 76px 39px 77px!important;
+	padding: 0 !important;
+	width: 39px !important;
+	height: 56px !important;
+	font-size: 1.6rem !important;
+    font-weight: 400 !important;
+	line-height: 1.9rem !important;
+	border: none !important;
+	text-align: right !important;
+}
+
+.command_separator_line {
+	margin: 0 0 55px 0 !important;
+}
+
+.command_contact {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.command_contact > fieldset:first-child {
+	border: none;
+	padding: 0;
+}
+.command_contact > fieldset:last-child {
+	border-color: white;
+	border-width: 1px;
+	border-top:  none;
+	border-right:  none;
+	border-bottom:  none;
+	padding: 0 0 0 44px;
+}
+
+.command_subtitle {
+	margin: 0 !important;
+	font-size: 3.0rem !important;
+    font-weight: 700 !important;
+	line-height: 3.6rem !important;
+	color: white;
+}
+
+.command_label {
+	margin: 30px 0 0 0;
+	font-size: 2.0rem !important;
+    font-weight: 400 !important;
+	line-height: 2.4rem !important;
+	color: white;
+}
+
+.command_field {
+	font-family: 'inter', sans-serif !important; 
+	margin: 13px 0 0 0!important;
+	padding: 0 !important;
+	max-width: 383px !important;
+	height: 71px !important;
+	font-size: 1.6rem !important;
+    font-weight: 400 !important;
+	line-height: 1.9rem !important;
+	border: none !important;
+	border-radius: 7px !important;
+	text-align: center !important;
+}
+
+.command_submit_container {
+	display:flex;
+	justify-content: center;
+}
+
+/* disable spinner when submit button is clicked */
+.wpcf7-spinner {
+	display: none;
+}
+
+.command_submit {
+	margin: 44px 0 93px 20px !important;
+	padding: 9px 57px 9px 56px !important;
+	font-size: 1.5rem !important;
+    font-weight: 400 !important;
+	line-height: 3.7rem !important;
+	border: none !important;
+	border-radius: 5px !important;
+	text-align: center !important;
+	background-color: #E0B9B4 !important;
+	text-transform: none !important;
+	letter-spacing: normal !important;
+}
+
+.command_submit:hover {
+	background-color: #C02E44 !important;
+	text-decoration: none !important;
+}
+
+/* responsive for Command form */
+/* Medium devices (tablets) */
+@media (max-width: 860px) {
+	.command_quantities {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.command_contact {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
+/* Very small devices */
+@media (max-width: 320px) {
+	.command_quantities {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
 
 /* FOOTER */
 /* Footer Bottom container */
