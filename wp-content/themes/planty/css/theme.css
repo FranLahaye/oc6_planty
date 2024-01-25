@@ -92,8 +92,84 @@ ul.primary-menu a:hover {
 	padding: 0;
 }
 
+.wp-block-image {
+	margin: 0 !important;
+}
+
+.post-meta-wrapper {
+	display: none;
+}
+
 /*** PAGE "commander" managed by Gutenberg ***/
 /* classes defined manually into Gutenberg blocks */
+
+.accueil_parfum_row {
+	gap: 30px;
+}
+
+.accueil_parfum_title {
+	font-size: 48px !important;
+	line-height: 58px;
+}
+
+
+.accueil_button_commander {
+	width: auto !important;
+}
+.accueil_button_commander > a {
+	font-size: 1.5rem !important;
+    font-weight: 400 !important;
+	line-height: 3.7rem !important;
+	text-transform: none !important;
+	letter-spacing: normal !important;
+
+	margin: 47px 0 29px 0 !important;
+	padding: 9px 57px 9px 56px !important;
+	border: none !important;
+	border-radius: 5px !important;
+	text-align: center !important;
+	background-color: #E0B9B4 !important;
+}
+.accueil_button_commander >a:hover {
+	background-color: #C02E44 !important;
+	text-decoration: none !important;
+}
+
+.accueil_witness_row {
+	display:grid !important;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 70px !important;
+}
+
+.accueil_witness_subrow {
+	display:grid !important;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+.accueil_witness_column {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	display: block !important;
+	width: 196px;
+}
+
+/* responsive for accueil_witness rows */
+
+@media (max-width: 1300px) {
+	.accueil_witness_row {
+		display:grid !important;
+		grid-template-columns: 1fr;
+		margin-bottom: 250px !important;
+	}
+}
+@media (max-width: 600px) {
+	.accueil_witness_row {
+		padding: 0 !important;
+		margin-bottom: 350px !important;
+	}
+}
+
 
 .page_commander_groupe {
     max-width: 860px !important;
@@ -115,9 +191,10 @@ ul.primary-menu a:hover {
 	background-color:white !important;
 }
 
-/* container of title into banner block */
+/* container into a banner block */
 .wp-block-cover__inner-container {
-	width: 90% !important;
+	width: 100% !important;
+	padding: 0 !important;
 }
 
 /* classes created automatically by Gutenberg */
