@@ -1,3 +1,6 @@
+/* PLANTY Theme child of twentytwenty Theme */
+/* CSS style adaptations                    */
+
 /* Import of font Syne from Google Fonts and setup on all pages */
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
@@ -5,6 +8,10 @@
 html * {
    font-family: 'Syne', sans-serif !important; 
 }
+
+
+/* GENERAL */
+/***********/
 
 body {
     max-width: 1440px;
@@ -17,6 +24,7 @@ h1, h2, h3, h4, h5, h6, .faux-heading {
 }
 
 /* HEADER */
+/**********/
 
 /* logo image size */
 .site-logo img {
@@ -81,7 +89,11 @@ ul.primary-menu a:hover {
 	font-weight: 700;
 }
 
-/* PAGES global */
+
+/*                       PAGES                      */
+/****************************************************/
+/* classes created automatically by Theme/Gutenberg */
+
 /* wordpress native pages title not displayed */
 .entry-header {
 	display:none;
@@ -100,8 +112,18 @@ ul.primary-menu a:hover {
 	display: none;
 }
 
-/*** PAGE "commander" managed by Gutenberg ***/
+/* container into a banner block */
+.wp-block-cover__inner-container {
+	width: 100% !important;
+	padding: 0 !important;
+}
+
+/*              PAGES GUTENBERG                   */
+/**************************************************/
 /* classes defined manually into Gutenberg blocks */
+
+/* PAGE Accueil */
+/****************/
 
 .accueil_parfum_row {
 	gap: 30px;
@@ -171,6 +193,179 @@ ul.primary-menu a:hover {
 }
 
 
+/* PAGE Rencontrer */
+/*******************/
+
+.rencontrer_title_row {
+	display:grid !important;
+	grid-template-columns: 1fr 1fr;
+}
+
+.rencontrer_flower {
+	width: 191px !important;
+}
+
+.rencontrer_title {
+	width: 680px !important;
+	white-space: nowrap;
+}
+
+.rencontrer_subtitle > div > p {
+	max-width: 680px !important;
+}
+
+.rencontrer_team_row {
+	display:grid !important;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 157px !important;
+}
+
+.rencontrer_team_column {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	display: block !important;
+	width: 167px;
+}
+
+.rencontrer_team_foliage > figure {
+	margin: 0 !important;
+}
+
+.rencontrer_team_foliage > figure > img {
+	position: relative;
+	right: -1190.21px;
+	bottom: 215.92px;
+}
+
+/* contact form */
+.rencontrer_form {
+	margin-top: -153px;
+	margin-bottom: 0;
+	display: flex !important;
+	justify-content: center !important;
+}
+.rencontrer_contact_subtitle {
+	margin: 0 !important;
+	text-align: center;
+	padding-bottom: 23px !important;
+	font-size: 3.0rem !important;
+    font-weight: 700 !important;
+	line-height: 3.6rem !important;
+	color: black;
+}
+
+.rencontrer_contact_label {
+	margin: 22px 0 0 0;
+	font-size: 2.0rem !important;
+    font-weight: 400 !important;
+	line-height: 2.4rem !important;
+	color: black;
+}
+
+.rencontrer_contact_field {
+	font-family: 'inter', sans-serif !important; 
+	margin: 13px 0 0 0!important;
+	padding: 0 !important;
+	max-width: 383px !important;
+	height: 71px !important;
+	font-size: 1.6rem !important;
+    font-weight: 400 !important;
+	line-height: 1.9rem !important;
+	border: none !important;
+	border-radius: 7px !important;
+	text-align: left !important;
+}
+
+.rencontrer_contact_field_message {
+	font-family: 'inter', sans-serif !important; 
+	margin: 13px 0 0 0!important;
+	padding: 0 !important;
+	max-width: 383px !important;
+	height: 237px !important;
+	font-size: 1.6rem !important;
+    font-weight: 400 !important;
+	line-height: 1.9rem !important;
+	border: none !important;
+	border-radius: 7px !important;
+	text-align: left !important;
+}
+
+
+.rencontrer_contact_submit_container {
+	display: flex !important;
+	justify-content: center !important;
+}
+
+
+.rencontrer_contact_submit {
+	margin: 24px 0 0 0 !important;*/
+	padding: 9px 0 9px 0 !important;
+	width: 198px;
+	font-size: 1.5rem !important;
+    font-weight: 400 !important;
+	line-height: 3.7rem !important;
+	border: none !important;
+	border-radius: 5px !important;
+	text-align: center !important;
+	background-color: #E0B9B4 !important;
+	text-transform: none !important;
+	letter-spacing: normal !important;
+}
+
+.rencontrer_contact_submit:hover {
+	background-color: #C02E44 !important;
+	text-decoration: none !important;
+}
+
+.rencontrer_contact_foliage > figure {
+	margin: 0 !important;
+}
+
+.rencontrer_contact_foliage > figure > img {
+	position: relative;
+	right: -442px;
+	bottom: 224.79px;
+	z-index: -1;
+}
+
+.rencontrer_frise {
+	margin-top: -105px !important;
+}
+
+
+
+/* responsive for Rencontrer page */
+/* small devices (tablets, mobiles) */
+@media (max-width: 1000px) {
+	.rencontrer_title_row {
+		display:grid !important;
+		grid-template-columns: 1fr;
+		padding: 20px !important;
+	}
+	
+	.rencontrer_title {
+		width: auto !important;
+		white-space: inherit;
+	}
+	
+	.rencontrer_subtitle > div > p {
+		max-width: auto !important;
+	}
+
+	.rencontrer_team_row {
+		display:grid !important;
+		grid-template-columns: 1fr;
+		gap: 50px !important;
+		padding: 20px !important;
+	}
+}
+
+
+
+
+/* PAGE Commander */
+/******************/
+
 .page_commander_groupe {
     max-width: 860px !important;
 	width:100%;
@@ -181,25 +376,10 @@ ul.primary-menu a:hover {
 	margin-top: 15.64px;
 }
 
-/* separator block design change */
-.entry-content hr::before, .entry-content hr::after {
-	display: none;
-}
 
-.command_separator_line, .entry-content hr {
-	color: white !important;
-	background-color:white !important;
-}
-
-/* container into a banner block */
-.wp-block-cover__inner-container {
-	width: 100% !important;
-	padding: 0 !important;
-}
-
-/* classes created automatically by Gutenberg */
 
 /* classes defined manually into Contact 7 plugin */
+
 /* command form */
 .command_quantities {
 	display: grid;
@@ -272,8 +452,8 @@ ul.primary-menu a:hover {
 }
 
 .command_submit_container {
-	display:flex;
-	justify-content: center;
+	display:flex !important;
+	justify-content: center !important;
 }
 
 /* disable spinner when submit button is clicked */
@@ -300,6 +480,17 @@ ul.primary-menu a:hover {
 	text-decoration: none !important;
 }
 
+/* separator block design global change into theme */
+.entry-content hr::before, .entry-content hr::after {
+	display: none;
+}
+
+/* specific form and global theme */
+.command_separator_line, .entry-content hr {
+	color: white !important;
+	background-color:white !important;
+}
+
 /* responsive for Command form */
 /* Medium devices (tablets) */
 @media (max-width: 860px) {
@@ -320,7 +511,10 @@ ul.primary-menu a:hover {
 	}
 }
 
-/* FOOTER */
+/*                  FOOTER                          */
+/* classes created automatically by Theme/Gutenberg */
+/****************************************************/
+
 /* Footer Bottom container */
 #site-footer {
     padding-top: 20px;
