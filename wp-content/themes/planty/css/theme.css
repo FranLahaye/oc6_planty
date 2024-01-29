@@ -298,7 +298,7 @@ ul.primary-menu a:hover {
 
 
 .rencontrer_contact_submit {
-	margin: 24px 0 0 0 !important;*/
+	margin: 24px 0 0 0 !important;
 	padding: 9px 0 9px 0 !important;
 	width: 198px;
 	font-size: 1.5rem !important;
@@ -349,7 +349,7 @@ ul.primary-menu a:hover {
 	}
 	
 	.rencontrer_subtitle > div > p {
-		max-width: auto !important;
+		max-width: none !important;
 	}
 
 	.rencontrer_team_row {
