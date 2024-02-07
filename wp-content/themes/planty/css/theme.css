@@ -2,7 +2,7 @@
 /* CSS style adaptations                    */
 
 /* Import of font Syne from Google Fonts and setup on all pages */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
 html * {
@@ -132,8 +132,9 @@ ul.primary-menu a:hover {
 .accueil_parfum_title {
 	font-size: 48px !important;
 	line-height: 58px;
+	-webkit-hyphenate-character: "" !important;
+	hyphenate-character: "" !important;
 }
-
 
 .accueil_button_commander {
 	width: auto !important;
@@ -160,12 +161,12 @@ ul.primary-menu a:hover {
 .accueil_witness_row {
 	display:grid !important;
 	grid-template-columns: 1fr 1fr 1fr;
-	gap: 70px !important;
 }
 
 .accueil_witness_subrow {
 	display:grid !important;
 	grid-template-columns: 1fr 1fr;
+	width: 345px;
 }
 
 
@@ -176,20 +177,39 @@ ul.primary-menu a:hover {
 	width: 196px;
 }
 
-/* responsive for accueil_witness rows */
+.accueil_frise {
+	min-height: 638px;
+}
 
-@media (max-width: 1300px) {
+/* responsive for page accueil */
+@media (max-width: 1080px) {
 	.accueil_witness_row {
 		display:grid !important;
 		grid-template-columns: 1fr;
 		margin-bottom: 250px !important;
 	}
 }
-@media (max-width: 600px) {
-	.accueil_witness_row {
-		padding: 0 !important;
-		margin-bottom: 350px !important;
+@media (max-width: 800px) {
+	.has-eccp-huge-font-size {
+		font-size: 22px !important;
+		line-height: 24px;
+		padding: 15px !important;
 	}
+	.accueil_parfum_row {
+		gap: 5px;
+	}
+	.accueil_parfum_row >.wp-block-cover {
+		min-height: 129px !important;
+		min-width: 160px !important;
+	}
+	.accueil_parfum_title {
+		font-size: 20px !important;
+		line-height: 24px;
+	}
+	.accueil_witness_row {
+		padding: 0 5px 0 5px !important;
+	}
+	
 }
 
 
@@ -210,7 +230,7 @@ ul.primary-menu a:hover {
 	white-space: nowrap;
 }
 
-.rencontrer_subtitle > div > p {
+.rencontrer_subtitle {
 	max-width: 680px !important;
 }
 
@@ -324,7 +344,7 @@ ul.primary-menu a:hover {
 .rencontrer_contact_foliage > figure > img {
 	position: relative;
 	right: -442px;
-	bottom: 224.79px;
+	bottom: 198px;
 	z-index: -1;
 }
 
@@ -334,29 +354,45 @@ ul.primary-menu a:hover {
 
 
 
-/* responsive for Rencontrer page */
-/* small devices (tablets, mobiles) */
-@media (max-width: 1000px) {
+/* responsive for page Rencontrer */
+@media (max-width: 1080px) {
 	.rencontrer_title_row {
-		display:grid !important;
 		grid-template-columns: 1fr;
-		padding: 20px !important;
+		padding: 0 !important;
+		justify-items: center;
 	}
-	
+
+	.rencontrer_title_row > div {
+		margin: 0 !important;
+	}
+
 	.rencontrer_title {
-		width: auto !important;
 		white-space: inherit;
+		margin: auto !important;
 	}
-	
-	.rencontrer_subtitle > div > p {
-		max-width: none !important;
+
+	.rencontrer_subtitle {
+		width: 100% !important;
+		margin: auto !important;
+		margin-top: 20px !important;
 	}
 
 	.rencontrer_team_row {
-		display:grid !important;
 		grid-template-columns: 1fr;
-		gap: 50px !important;
-		padding: 20px !important;
+		gap: 40px !important;
+		justify-items: center;
+	}
+}
+@media (max-width: 480px) {
+	.has-eccp-huge-font-size {
+		font-size: 18px !important;
+		line-height: 22px;
+		padding: 15px !important;
+	}
+	.rencontrer_team_row {
+		padding: 0 !important;
+		margin: 77px;
+		width: 167px !important;
 	}
 }
 
@@ -372,6 +408,10 @@ ul.primary-menu a:hover {
 	margin:auto;
 }
 
+.commander_parfum_title {
+	-webkit-hyphenate-character: "" !important;
+	hyphenate-character: "" !important;
+}
 .command_form {
 	margin-top: 15.64px;
 }
@@ -388,7 +428,7 @@ ul.primary-menu a:hover {
 
 .command_quantity {
 	font-family: 'inter', sans-serif !important; 
-	margin: 0 76px 39px 77px!important;
+	margin: 0 70px 39px 83px!important;
 	padding: 0 !important;
 	width: 39px !important;
 	height: 56px !important;
@@ -491,23 +531,28 @@ ul.primary-menu a:hover {
 	background-color:white !important;
 }
 
-/* responsive for Command form */
-/* Medium devices (tablets) */
-@media (max-width: 860px) {
-	.command_quantities {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+/* responsive for page Commander */
+@media (max-width: 800px) {
+	.commander_parfum_title {
+		font-size: 1.6rem !important;
+		line-height: 2.4rem !important;
+	}
+	.command_quantity {
+		margin: 0 13px 39px 13px!important;
 	}
 	.command_contact {
-		display: grid;
 		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+	.command_contact > fieldset {
+		padding: 30px 0 0 0 !important;
 	}
 }
-/* Very small devices */
-@media (max-width: 320px) {
-	.command_quantities {
-		display: grid;
-		grid-template-columns: 1fr;
+@media (max-width: 580px) {
+	.commander_parfum_title {
+		font-size: 1.2rem !important;
+		line-height: 2.0rem !important;
+		font-weight: 600 !important;
 	}
 }
 

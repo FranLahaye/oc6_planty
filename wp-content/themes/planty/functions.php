@@ -36,3 +36,9 @@ function add_extra_item_to_nav_menu( $items, $args ) { // $items is a string con
 
     return $items;
 }
+
+// Shortcode definition to generate soft hyphen unicode caractere. shortcode [shy] can be inserted in a Gutenberg text block to control a word hyphen
+add_shortcode('shy', 'my_shy_shortcode');
+function my_shy_shortcode($atts) {
+    return '&shy;';
+}
