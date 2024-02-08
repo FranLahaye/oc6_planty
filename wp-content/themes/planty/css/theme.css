@@ -178,17 +178,18 @@ ul.primary-menu a:hover {
 }
 
 .accueil_frise {
-	min-height: 638px;
+	min-height: 131px;
+	margin-top: 130px !important;
 }
 
 /* responsive for page accueil */
 @media (max-width: 1080px) {
 	.accueil_witness_row {
-		display:grid !important;
+		display: grid !important;
 		grid-template-columns: 1fr;
-		margin-bottom: 250px !important;
 	}
 }
+
 @media (max-width: 800px) {
 	.has-eccp-huge-font-size {
 		font-size: 22px !important;
@@ -209,7 +210,6 @@ ul.primary-menu a:hover {
 	.accueil_witness_row {
 		padding: 0 5px 0 5px !important;
 	}
-	
 }
 
 
@@ -547,6 +547,10 @@ ul.primary-menu a:hover {
 	.command_contact > fieldset {
 		padding: 30px 0 0 0 !important;
 	}
+	.command_contact > fieldset:last-child {
+		border: none;
+	}
+	
 }
 @media (max-width: 580px) {
 	.commander_parfum_title {
