@@ -124,7 +124,10 @@ ul.primary-menu a:hover {
 
 /* PAGE Accueil */
 /****************/
-
+.accueil_energie_plantes {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
 .accueil_parfum_row {
 	gap: 30px;
 }
